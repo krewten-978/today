@@ -1,0 +1,130 @@
+{
+  "week_of": "2026-09-14",
+  "timezone": "America/Los_Angeles",
+  "updated": "2026-09-01T14:13:00-07:00",
+  "test": true,
+  "courses": {
+    "Eng II": {
+      "title": "Plato's Cave",
+      "days": {
+        "Monday": {
+          "in_class": "Cave packet",
+          "due": []
+        },
+        "Tuesday": {
+          "in_class": "Cave Focus Lab — why someone might prefer the shadows",
+          "due": [
+            {
+              "name": "Cave Focus Lab",
+              "due": "2026-09-16",
+              "note": "due Wednesday"
+            }
+          ]
+        },
+        "Wednesday": {
+          "in_class": "Cave Origin Ladder",
+          "due": [
+            {
+              "name": "Vocab pictures — ambiguous, benevolent, discern, formidable, impartial, scrutinize",
+              "due": "2026-09-16",
+              "note": "due today"
+            },
+            {
+              "name": "Cave Origin Ladder",
+              "due": "2026-09-17",
+              "note": "due Thursday"
+            }
+          ]
+        },
+        "Thursday": {
+          "in_class": "AI tutorial",
+          "due": [
+            {
+              "name": "Cave Origin Ladder",
+              "due": "2026-09-17",
+              "note": "due today"
+            }
+          ]
+        },
+        "Friday": {
+          "in_class": "Don Quixote becomes a knight; spoken vocab quiz",
+          "due": []
+        }
+      }
+    },
+    "Eng IV": {
+      "title": "A King Born Through Deception",
+      "days": {
+        "Monday": {
+          "in_class": "Finish Arthur's birth packet",
+          "due": []
+        },
+        "Tuesday": {
+          "in_class": "Companion Reader — the sword is not consent",
+          "due": []
+        },
+        "Wednesday": {
+          "in_class": "Companion Reader — Hobbes",
+          "due": []
+        },
+        "Thursday": {
+          "in_class": "Reading Lab — should the realm recognize Arthur as king?",
+          "due": [
+            {
+              "name": "Reading Lab — Arthur's claim to rule",
+              "due": "2026-09-18",
+              "note": "due Friday"
+            }
+          ]
+        },
+        "Friday": {
+          "in_class": "Finish Reading Lab",
+          "due": [
+            {
+              "name": "Reading Lab — Arthur's claim to rule",
+              "due": "2026-09-18",
+              "note": "due today"
+            }
+          ]
+        }
+      }
+    },
+    "WR 121": {
+      "title": "Macbeth",
+      "days": {
+        "Monday": {
+          "in_class": "Finish viewing Macbeth",
+          "due": []
+        },
+        "Tuesday": {
+          "in_class": "Finish viewing Macbeth",
+          "due": []
+        },
+        "Wednesday": {
+          "in_class": "Finish viewing Macbeth",
+          "due": []
+        },
+        "Thursday": {
+          "in_class": "Start informal paper",
+          "due": [
+            {
+              "name": "Informal paper — In Macbeth, who are you?",
+              "due": "2026-09-25",
+              "note": "due Friday 9/25 (placeholder)"
+            }
+          ]
+        },
+        "Friday": {
+          "in_class": "Write informal paper",
+          "due": [
+            {
+              "name": "Informal paper — In Macbeth, who are you?",
+              "due": "2026-09-25",
+              "note": "due Friday 9/25 (placeholder)"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
