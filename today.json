@@ -1,53 +1,67 @@
 {
   "week_of": "2026-09-14",
   "timezone": "America/Los_Angeles",
-  "updated": "2026-09-01T14:13:00-07:00",
+  "updated": "2026-09-05T10:51:00-07:00",
+  "audience": "teacher",
   "test": true,
+  "bells": [
+    {"id": "breakfast", "label": "Breakfast", "start": "07:45", "end": "08:00", "kind": "nonclass", "course": null},
+    {"id": "p1", "label": "1st Period", "start": "08:05", "end": "08:55", "kind": "class", "period": 1, "course": "Eng II"},
+    {"id": "p2", "label": "2nd Period", "start": "08:59", "end": "09:49", "kind": "class", "period": 2, "course": "Eng II"},
+    {"id": "p3", "label": "3rd Period", "start": "09:53", "end": "10:43", "kind": "class", "period": 3, "course": "Eng II"},
+    {"id": "advisory", "label": "Advisory", "start": "10:47", "end": "11:09", "kind": "advisory", "course": null},
+    {"id": "p4", "label": "4th Period", "start": "11:13", "end": "12:03", "kind": "class", "period": 4, "course": "WR 121"},
+    {"id": "lunch", "label": "Lunch", "start": "12:03", "end": "12:33", "kind": "lunch", "course": null},
+    {"id": "p5", "label": "5th Period", "start": "12:37", "end": "13:27", "kind": "class", "period": 5, "course": "Eng IV"},
+    {"id": "p6", "label": "6th Period", "start": "13:31", "end": "14:21", "kind": "class", "period": 6, "course": "Eng II"},
+    {"id": "p7", "label": "7th Period", "start": "14:25", "end": "15:15", "kind": "class", "period": 7, "course": null}
+  ],
   "courses": {
     "Eng II": {
       "title": "Plato's Cave",
       "days": {
         "Monday": {
-          "in_class": "Cave packet",
+          "run": "Cave packet; introduce weekly vocab",
+          "have": ["U1L1TG (1 copy)", "Cave packet"],
+          "collect": [],
+          "hold": [],
           "due": []
         },
         "Tuesday": {
-          "in_class": "Cave Focus Lab — why someone might prefer the shadows",
+          "run": "Cave Focus Lab (U1L1FL)",
+          "have": ["U1L1FL worksheets"],
+          "collect": [],
+          "hold": [],
           "due": [
-            {
-              "name": "Cave Focus Lab",
-              "due": "2026-09-16",
-              "note": "due Wednesday"
-            }
+            {"name": "Cave Focus Lab", "id": "U1L1FL", "due": "2026-09-16", "note": "collect Wednesday"}
           ]
         },
         "Wednesday": {
-          "in_class": "Cave Origin Ladder",
+          "run": "Cave Origin-Reader + Origin Ladder (U1L1OL); Vocab Pics",
+          "have": [
+            "Origin-Reader",
+            "U1L1OL",
+            "Vocab Pics: ambiguous, benevolent, discern, formidable, impartial, scrutinize"
+          ],
+          "collect": ["Cave Focus Lab (U1L1FL)"],
+          "hold": [],
           "due": [
-            {
-              "name": "Vocab pictures — ambiguous, benevolent, discern, formidable, impartial, scrutinize",
-              "due": "2026-09-16",
-              "note": "due today"
-            },
-            {
-              "name": "Cave Origin Ladder",
-              "due": "2026-09-17",
-              "note": "due Thursday"
-            }
+            {"name": "Vocab pictures", "id": null, "due": "2026-09-16", "note": "same-day Wednesday"},
+            {"name": "Cave Origin Ladder", "id": "U1L1OL", "due": "2026-09-17", "note": "collect Thursday"}
           ]
         },
         "Thursday": {
-          "in_class": "AI tutorial",
-          "due": [
-            {
-              "name": "Cave Origin Ladder",
-              "due": "2026-09-17",
-              "note": "due today"
-            }
-          ]
+          "run": "AI Tutorial Day",
+          "have": [],
+          "collect": ["Cave Origin Ladder (U1L1OL)"],
+          "hold": [],
+          "due": []
         },
         "Friday": {
-          "in_class": "Don Quixote becomes a knight; spoken vocab quiz",
+          "run": "Don Quixote literary buildup; verbal vocab quiz",
+          "have": ["Don Quixote reading", "verbal test script"],
+          "collect": [],
+          "hold": [],
           "due": []
         }
       }
@@ -56,36 +70,41 @@
       "title": "A King Born Through Deception",
       "days": {
         "Monday": {
-          "in_class": "Finish Arthur's birth packet",
+          "run": "Finish Arthur's birth packet",
+          "have": ["Week 1 packet"],
+          "collect": [],
+          "hold": [],
           "due": []
         },
         "Tuesday": {
-          "in_class": "Companion Reader — the sword is not consent",
+          "run": "Companion Reader — the sword is not consent",
+          "have": ["Companion Reader"],
+          "collect": [],
+          "hold": [],
           "due": []
         },
         "Wednesday": {
-          "in_class": "Companion Reader — Hobbes",
+          "run": "Companion Reader — Hobbes",
+          "have": ["Companion Reader"],
+          "collect": [],
+          "hold": [],
           "due": []
         },
         "Thursday": {
-          "in_class": "Reading Lab — should the realm recognize Arthur as king?",
+          "run": "Reading Lab (U1L1RL) — should the realm recognize Arthur as king?",
+          "have": ["U1L1RL worksheets"],
+          "collect": [],
+          "hold": [],
           "due": [
-            {
-              "name": "Reading Lab — Arthur's claim to rule",
-              "due": "2026-09-18",
-              "note": "due Friday"
-            }
+            {"name": "Reading Lab — Arthur's claim to rule", "id": "U1L1RL", "due": "2026-09-18", "note": "collect Friday"}
           ]
         },
         "Friday": {
-          "in_class": "Finish Reading Lab",
-          "due": [
-            {
-              "name": "Reading Lab — Arthur's claim to rule",
-              "due": "2026-09-18",
-              "note": "due today"
-            }
-          ]
+          "run": "Finish Reading Lab (U1L1RL)",
+          "have": ["U1L1RL worksheets"],
+          "collect": ["Reading Lab — Arthur's claim to rule (U1L1RL)"],
+          "hold": [],
+          "due": []
         }
       }
     },
@@ -93,35 +112,42 @@
       "title": "Macbeth",
       "days": {
         "Monday": {
-          "in_class": "Finish viewing Macbeth",
+          "run": "Finish viewing Macbeth",
+          "have": ["Macbeth viewing"],
+          "collect": [],
+          "hold": ["no Whately this week"],
           "due": []
         },
         "Tuesday": {
-          "in_class": "Finish viewing Macbeth",
+          "run": "Finish viewing Macbeth",
+          "have": ["Macbeth viewing"],
+          "collect": [],
+          "hold": ["no Whately this week"],
           "due": []
         },
         "Wednesday": {
-          "in_class": "Finish viewing Macbeth",
+          "run": "Finish viewing Macbeth",
+          "have": ["Macbeth viewing"],
+          "collect": [],
+          "hold": ["no Whately this week"],
           "due": []
         },
         "Thursday": {
-          "in_class": "Start informal paper",
+          "run": "Start informal paper — In Macbeth, who are you?",
+          "have": ["informal paper prompt"],
+          "collect": [],
+          "hold": [],
           "due": [
-            {
-              "name": "Informal paper — In Macbeth, who are you?",
-              "due": "2026-09-25",
-              "note": "due Friday 9/25 (placeholder)"
-            }
+            {"name": "Informal paper — In Macbeth, who are you?", "id": null, "due": null, "note": "lock due date in Friday review"}
           ]
         },
         "Friday": {
-          "in_class": "Write informal paper",
+          "run": "Write informal paper — In Macbeth, who are you?",
+          "have": ["informal paper prompt"],
+          "collect": [],
+          "hold": [],
           "due": [
-            {
-              "name": "Informal paper — In Macbeth, who are you?",
-              "due": "2026-09-25",
-              "note": "due Friday 9/25 (placeholder)"
-            }
+            {"name": "Informal paper — In Macbeth, who are you?", "id": null, "due": null, "note": "lock due date in Friday review"}
           ]
         }
       }
