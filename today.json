@@ -1,20 +1,20 @@
 {
   "week_of": "2026-09-14",
   "timezone": "America/Los_Angeles",
-  "updated": "2026-09-05T10:51:00-07:00",
+  "updated": "2026-09-05T11:21:00-07:00",
   "audience": "teacher",
   "test": true,
   "bells": [
     {"id": "breakfast", "label": "Breakfast", "start": "07:45", "end": "08:00", "kind": "nonclass", "course": null},
     {"id": "p1", "label": "1st Period", "start": "08:05", "end": "08:55", "kind": "class", "period": 1, "course": "Eng II"},
-    {"id": "p2", "label": "2nd Period", "start": "08:59", "end": "09:49", "kind": "class", "period": 2, "course": "Eng II"},
-    {"id": "p3", "label": "3rd Period", "start": "09:53", "end": "10:43", "kind": "class", "period": 3, "course": "Eng II"},
+    {"id": "p2", "label": "2nd Period", "start": "08:59", "end": "09:49", "kind": "class", "period": 2, "course": "Video Production"},
+    {"id": "p3", "label": "3rd Period", "start": "09:53", "end": "10:43", "kind": "prep", "period": 3, "course": null},
     {"id": "advisory", "label": "Advisory", "start": "10:47", "end": "11:09", "kind": "advisory", "course": null},
-    {"id": "p4", "label": "4th Period", "start": "11:13", "end": "12:03", "kind": "class", "period": 4, "course": "WR 121"},
+    {"id": "p4", "label": "4th Period", "start": "11:13", "end": "12:03", "kind": "class", "period": 4, "course": "Eng II"},
     {"id": "lunch", "label": "Lunch", "start": "12:03", "end": "12:33", "kind": "lunch", "course": null},
     {"id": "p5", "label": "5th Period", "start": "12:37", "end": "13:27", "kind": "class", "period": 5, "course": "Eng IV"},
-    {"id": "p6", "label": "6th Period", "start": "13:31", "end": "14:21", "kind": "class", "period": 6, "course": "Eng II"},
-    {"id": "p7", "label": "7th Period", "start": "14:25", "end": "15:15", "kind": "class", "period": 7, "course": null}
+    {"id": "p6", "label": "6th Period", "start": "13:31", "end": "14:21", "kind": "class", "period": 6, "course": "WR 121"},
+    {"id": "p7", "label": "7th Period", "start": "14:25", "end": "15:15", "kind": "class", "period": 7, "course": "Eng II"}
   ],
   "courses": {
     "Eng II": {
