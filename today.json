@@ -1,9 +1,8 @@
 {
-  "week_of": "2026-09-14",
+  "week_of": "2026-09-07",
   "timezone": "America/Los_Angeles",
-  "updated": "2026-09-05T11:21:00-07:00",
+  "updated": "2026-09-06T14:31:00-07:00",
   "audience": "teacher",
-  "test": true,
   "bells": [
     {"id": "breakfast", "label": "Breakfast", "start": "07:45", "end": "08:00", "kind": "nonclass", "course": null},
     {"id": "p1", "label": "1st Period", "start": "08:05", "end": "08:55", "kind": "class", "period": 1, "course": "Eng II"},
@@ -18,49 +17,40 @@
   ],
   "courses": {
     "Eng II": {
-      "title": "Plato's Cave",
+      "title": "Class intro / Herodotus",
       "days": {
         "Monday": {
-          "run": "Cave packet; introduce weekly vocab",
-          "have": ["U1L1TG (1 copy)", "Cave packet"],
+          "run": "Labor Day",
+          "have": [],
           "collect": [],
           "hold": [],
           "due": []
         },
         "Tuesday": {
-          "run": "Cave Focus Lab (U1L1FL)",
-          "have": ["U1L1FL worksheets"],
-          "collect": [],
-          "hold": [],
-          "due": [
-            {"name": "Cave Focus Lab", "id": "U1L1FL", "due": "2026-09-16", "note": "collect Wednesday"}
-          ]
-        },
-        "Wednesday": {
-          "run": "Cave Origin-Reader + Origin Ladder (U1L1OL); Vocab Pics",
-          "have": [
-            "Origin-Reader",
-            "U1L1OL",
-            "Vocab Pics: ambiguous, benevolent, discern, formidable, impartial, scrutinize"
-          ],
-          "collect": ["Cave Focus Lab (U1L1FL)"],
-          "hold": [],
-          "due": [
-            {"name": "Vocab pictures", "id": null, "due": "2026-09-16", "note": "same-day Wednesday"},
-            {"name": "Cave Origin Ladder", "id": "U1L1OL", "due": "2026-09-17", "note": "collect Thursday"}
-          ]
-        },
-        "Thursday": {
-          "run": "AI Tutorial Day",
+          "run": "No high school",
           "have": [],
-          "collect": ["Cave Origin Ladder (U1L1OL)"],
+          "collect": [],
           "hold": [],
           "due": []
         },
-        "Friday": {
-          "run": "Don Quixote literary buildup; verbal vocab quiz",
-          "have": ["Don Quixote reading", "verbal test script"],
+        "Wednesday": {
+          "run": "Intro to class and syllabus",
+          "have": ["syllabus"],
           "collect": [],
+          "hold": ["no Plato this week"],
+          "due": []
+        },
+        "Thursday": {
+          "run": "student reader Herodotus Part 1; next-move writing",
+          "have": ["student reader Herodotus Part 1", "Night at the Unburied Wall map"],
+          "collect": [],
+          "hold": ["do not give the second handout"],
+          "due": []
+        },
+        "Friday": {
+          "run": "student reader Herodotus Part 2; compare; ancient-voices writing",
+          "have": ["student reader Herodotus Part 2"],
+          "collect": ["next-move writing"],
           "hold": [],
           "due": []
         }
@@ -70,41 +60,41 @@
       "title": "A King Born Through Deception",
       "days": {
         "Monday": {
-          "run": "Finish Arthur's birth packet",
-          "have": ["Week 1 packet"],
+          "run": "Labor Day",
+          "have": [],
           "collect": [],
           "hold": [],
           "due": []
         },
         "Tuesday": {
-          "run": "Companion Reader — the sword is not consent",
-          "have": ["Companion Reader"],
+          "run": "No high school",
+          "have": [],
           "collect": [],
           "hold": [],
           "due": []
         },
         "Wednesday": {
-          "run": "Companion Reader — Hobbes",
-          "have": ["Companion Reader"],
+          "run": "Intro to class and syllabus",
+          "have": ["syllabus"],
           "collect": [],
-          "hold": [],
+          "hold": ["do not begin Malory"],
           "due": []
         },
         "Thursday": {
-          "run": "Reading Lab (U1L1RL) — should the realm recognize Arthur as king?",
-          "have": ["U1L1RL worksheets"],
+          "run": "student reader Week 1 packet",
+          "have": ["student reader Week 1 packet", "character and loyalty map"],
+          "collect": [],
+          "hold": ["do not begin Reading Lab (U1L1RL)"],
+          "due": []
+        },
+        "Friday": {
+          "run": "companion reader Hobbes; begin Reading Lab (U1L1RL)",
+          "have": ["companion reader Hobbes", "Reading Lab worksheets (U1L1RL)"],
           "collect": [],
           "hold": [],
           "due": [
-            {"name": "Reading Lab — Arthur's claim to rule", "id": "U1L1RL", "due": "2026-09-18", "note": "collect Friday"}
+            {"name": "Reading Lab — Arthur's claim to rule (U1L1RL)", "id": "U1L1RL", "due": "2026-09-14", "note": "collect Monday if assigned Friday"}
           ]
-        },
-        "Friday": {
-          "run": "Finish Reading Lab (U1L1RL)",
-          "have": ["U1L1RL worksheets"],
-          "collect": ["Reading Lab — Arthur's claim to rule (U1L1RL)"],
-          "hold": [],
-          "due": []
         }
       }
     },
@@ -112,43 +102,39 @@
       "title": "Macbeth",
       "days": {
         "Monday": {
-          "run": "Finish viewing Macbeth",
-          "have": ["Macbeth viewing"],
+          "run": "Labor Day",
+          "have": [],
           "collect": [],
-          "hold": ["no Whately this week"],
+          "hold": [],
           "due": []
         },
         "Tuesday": {
-          "run": "Finish viewing Macbeth",
-          "have": ["Macbeth viewing"],
+          "run": "No high school",
+          "have": [],
           "collect": [],
-          "hold": ["no Whately this week"],
+          "hold": [],
           "due": []
         },
         "Wednesday": {
-          "run": "Finish viewing Macbeth",
-          "have": ["Macbeth viewing"],
+          "run": "Intro to class and syllabus",
+          "have": ["syllabus"],
           "collect": [],
           "hold": ["no Whately this week"],
           "due": []
         },
         "Thursday": {
-          "run": "Start informal paper — In Macbeth, who are you?",
-          "have": ["informal paper prompt"],
+          "run": "Begin Macbeth viewing",
+          "have": ["Macbeth viewing", "viewing notes"],
           "collect": [],
-          "hold": [],
-          "due": [
-            {"name": "Informal paper — In Macbeth, who are you?", "id": null, "due": null, "note": "lock due date in Friday review"}
-          ]
+          "hold": ["no Whately this week"],
+          "due": []
         },
         "Friday": {
-          "run": "Write informal paper — In Macbeth, who are you?",
-          "have": ["informal paper prompt"],
+          "run": "Continue Macbeth viewing",
+          "have": ["Macbeth viewing", "viewing notes"],
           "collect": [],
-          "hold": [],
-          "due": [
-            {"name": "Informal paper — In Macbeth, who are you?", "id": null, "due": null, "note": "lock due date in Friday review"}
-          ]
+          "hold": ["no Whately this week"],
+          "due": []
         }
       }
     }
