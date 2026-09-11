@@ -1,140 +1,343 @@
 {
-  "week_of": "2026-09-07",
+  "week_of": "2026-09-14",
   "timezone": "America/Los_Angeles",
-  "updated": "2026-09-09T15:52:17-07:00",
+  "updated": "2026-09-11T12:44:45-07:00",
   "audience": "teacher",
   "bells": [
-    {"id": "breakfast", "label": "Breakfast", "start": "07:45", "end": "08:00", "kind": "nonclass", "course": null},
-    {"id": "p1", "label": "1st Period", "start": "08:05", "end": "08:55", "kind": "class", "period": 1, "course": "Eng II"},
-    {"id": "p2", "label": "2nd Period", "start": "08:59", "end": "09:49", "kind": "class", "period": 2, "course": "Video Production"},
-    {"id": "p3", "label": "3rd Period", "start": "09:53", "end": "10:43", "kind": "prep", "period": 3, "course": null},
-    {"id": "advisory", "label": "Advisory", "start": "10:47", "end": "11:09", "kind": "advisory", "course": null},
-    {"id": "p4", "label": "4th Period", "start": "11:13", "end": "12:03", "kind": "class", "period": 4, "course": "Eng IV"},
-    {"id": "lunch", "label": "Lunch", "start": "12:03", "end": "12:33", "kind": "lunch", "course": null},
-    {"id": "p5", "label": "5th Period", "start": "12:37", "end": "13:27", "kind": "class", "period": 5, "course": "Eng II"},
-    {"id": "p6", "label": "6th Period", "start": "13:31", "end": "14:21", "kind": "class", "period": 6, "course": "WR 121"},
-    {"id": "p7", "label": "7th Period", "start": "14:25", "end": "15:15", "kind": "class", "period": 7, "course": "Eng II"}
+    {
+      "id": "breakfast",
+      "label": "Breakfast",
+      "start": "07:45",
+      "end": "08:00",
+      "kind": "nonclass",
+      "course": null
+    },
+    {
+      "id": "p1",
+      "label": "1st Period",
+      "start": "08:05",
+      "end": "08:55",
+      "kind": "class",
+      "period": 1,
+      "course": "Eng II"
+    },
+    {
+      "id": "p2",
+      "label": "2nd Period",
+      "start": "08:59",
+      "end": "09:49",
+      "kind": "class",
+      "period": 2,
+      "course": "Video Production"
+    },
+    {
+      "id": "p3",
+      "label": "3rd Period",
+      "start": "09:53",
+      "end": "10:43",
+      "kind": "prep",
+      "period": 3,
+      "course": null
+    },
+    {
+      "id": "advisory",
+      "label": "Advisory",
+      "start": "10:47",
+      "end": "11:09",
+      "kind": "advisory",
+      "course": null
+    },
+    {
+      "id": "p4",
+      "label": "4th Period",
+      "start": "11:13",
+      "end": "12:03",
+      "kind": "class",
+      "period": 4,
+      "course": "Eng IV"
+    },
+    {
+      "id": "lunch",
+      "label": "Lunch",
+      "start": "12:03",
+      "end": "12:33",
+      "kind": "lunch",
+      "course": null
+    },
+    {
+      "id": "p5",
+      "label": "5th Period",
+      "start": "12:37",
+      "end": "13:27",
+      "kind": "class",
+      "period": 5,
+      "course": "Eng II"
+    },
+    {
+      "id": "p6",
+      "label": "6th Period",
+      "start": "13:31",
+      "end": "14:21",
+      "kind": "class",
+      "period": 6,
+      "course": "WR 121"
+    },
+    {
+      "id": "p7",
+      "label": "7th Period",
+      "start": "14:25",
+      "end": "15:15",
+      "kind": "class",
+      "period": 7,
+      "course": "Eng II"
+    }
   ],
   "courses": {
     "Eng II": {
-      "title": "Class intro / Herodotus",
+      "title": "Plato's Cave / Vocabulary Week 1",
       "days": {
         "Monday": {
-          "run": "Labor Day",
-          "have": [],
+          "run": "student reader Cave packet; Unit 1 portfolio guide; introduce weekly vocabulary",
+          "have": [
+            "student reader Cave packet",
+            "teacher guide (U1L1TG) 1 copy",
+            "Unit 1 portfolio guide",
+            "Vocabulary Week 1 deck"
+          ],
           "collect": [],
-          "hold": [],
+          "hold": [
+            "do not issue Homer"
+          ],
           "due": []
         },
         "Tuesday": {
-          "run": "No high school",
-          "have": [],
+          "run": "Focus Lab worksheets (U1L1FL)",
+          "have": [
+            "Focus Lab worksheets (U1L1FL)"
+          ],
           "collect": [],
           "hold": [],
-          "due": []
+          "due": [
+            {
+              "name": "Cave Focus Lab (U1L1FL)",
+              "id": "U1L1FL",
+              "due": "2026-09-16",
+              "note": "assigned Tuesday; collect Wednesday"
+            }
+          ]
         },
         "Wednesday": {
-          "run": "Intro to class and syllabus",
-          "have": ["syllabus"],
-          "collect": [],
-          "hold": ["no Plato this week"],
-          "due": []
+          "run": "origin reader Cave + Origin Ladder (U1L1OL); Vocab Pics; origin-ladder student guide",
+          "have": [
+            "origin reader Cave",
+            "Origin Ladder (U1L1OL)",
+            "origin-ladder student guide",
+            "Vocab Pics (ambiguous, benevolent, discern, formidable, impartial, scrutinize)"
+          ],
+          "collect": [
+            "Cave Focus Lab (U1L1FL)"
+          ],
+          "hold": [],
+          "due": [
+            {
+              "name": "Vocab Pics",
+              "id": null,
+              "due": "2026-09-16",
+              "note": "due same Wednesday"
+            },
+            {
+              "name": "Origin Ladder (U1L1OL)",
+              "id": "U1L1OL",
+              "due": "2026-09-17",
+              "note": "assigned Wednesday; collect Thursday"
+            }
+          ]
         },
         "Thursday": {
-          "run": "student reader Herodotus Part 1; next-move writing",
-          "have": ["student reader Herodotus Part 1", "Night at the Unburied Wall map"],
-          "collect": [],
-          "hold": ["do not give the second handout"],
+          "run": "AI Tutorial Day; concept-map guidelines",
+          "have": [
+            "concept-map legend handout",
+            "AI Tutorial Day materials"
+          ],
+          "collect": [
+            "Origin Ladder (U1L1OL)"
+          ],
+          "hold": [],
           "due": []
         },
         "Friday": {
-          "run": "student reader Herodotus Part 2; compare; ancient-voices writing",
-          "have": ["student reader Herodotus Part 2"],
-          "collect": ["next-move writing"],
-          "hold": [],
+          "run": "literary buildup Don Quixote; verbal vocabulary test; portfolio check",
+          "have": [
+            "literary buildup Don Quixote",
+            "Vocabulary Week 1 verbal-test script",
+            "student portfolios"
+          ],
+          "collect": [],
+          "hold": [
+            "do not issue Homer"
+          ],
           "due": []
         }
       }
     },
     "Eng IV": {
-      "title": "A King Born Through Deception",
+      "title": "Excalibur / Balin",
       "days": {
         "Monday": {
-          "run": "Labor Day",
-          "have": [],
-          "collect": [],
-          "hold": [],
+          "run": "student reader Week 2 packet",
+          "have": [
+            "student reader Week 2 packet",
+            "teacher guide (U1L2TG) 1 copy"
+          ],
+          "collect": [
+            "Reading Lab \u2014 Arthur's claim to rule (U1L1RL)"
+          ],
+          "hold": [
+            "if U1L1RL unfinished, finish Week 1 first"
+          ],
           "due": []
         },
         "Tuesday": {
-          "run": "No high school",
-          "have": [],
-          "collect": [],
-          "hold": [],
-          "due": []
-        },
-        "Wednesday": {
-          "run": "Intro to class and syllabus",
-          "have": ["syllabus"],
-          "collect": [],
-          "hold": ["do not begin Malory"],
-          "due": []
-        },
-        "Thursday": {
-          "run": "student reader Week 1 packet",
-          "have": ["student reader Week 1 packet", "character and loyalty map"],
-          "collect": [],
-          "hold": ["do not begin Reading Lab (U1L1RL)"],
-          "due": []
-        },
-        "Friday": {
-          "run": "companion reader Hobbes; begin Reading Lab (U1L1RL)",
-          "have": ["companion reader Hobbes", "Reading Lab worksheets (U1L1RL)"],
+          "run": "companion reader Boethius; Reading Lab worksheets (U1L2RL)",
+          "have": [
+            "companion reader Boethius",
+            "teacher guide (U1L2CTG) 1 copy",
+            "Reading Lab worksheets (U1L2RL)"
+          ],
           "collect": [],
           "hold": [],
           "due": [
-            {"name": "Reading Lab — Arthur's claim to rule (U1L1RL)", "id": "U1L1RL", "due": "2026-09-14", "note": "collect Monday if assigned Friday"}
+            {
+              "name": "Reading Lab \u2014 Excalibur and prophecy (U1L2RL)",
+              "id": "U1L2RL",
+              "due": "2026-09-16",
+              "note": "assigned Tuesday; collect Wednesday"
+            }
+          ]
+        },
+        "Wednesday": {
+          "run": "intermediary art Weeks 1-2",
+          "have": [
+            "paper and drawing materials"
+          ],
+          "collect": [
+            "Reading Lab \u2014 Excalibur and prophecy (U1L2RL)"
+          ],
+          "hold": [
+            "drop intermediary first if Week 1 unfinished"
+          ],
+          "due": []
+        },
+        "Thursday": {
+          "run": "student reader Week 3 packet",
+          "have": [
+            "student reader Week 3 packet",
+            "teacher guide (U1L3TG) 1 copy"
+          ],
+          "collect": [],
+          "hold": [],
+          "due": []
+        },
+        "Friday": {
+          "run": "companion reader Bacon; Reading Lab worksheets (U1L3RL); portfolio check",
+          "have": [
+            "companion reader Bacon",
+            "teacher guide (U1L3CTG) 1 copy",
+            "Reading Lab worksheets (U1L3RL)",
+            "student portfolios"
+          ],
+          "collect": [],
+          "hold": [],
+          "due": [
+            {
+              "name": "Reading Lab \u2014 Balin draws the sword (U1L3RL)",
+              "id": "U1L3RL",
+              "due": "2026-09-21",
+              "note": "assigned Friday; collect Monday"
+            }
           ]
         }
       }
     },
     "WR 121": {
-      "title": "Macbeth",
+      "title": "Macbeth / Informal Paper 1",
       "days": {
         "Monday": {
-          "run": "Labor Day",
-          "have": [],
+          "run": "Continue Macbeth viewing",
+          "have": [
+            "Macbeth viewing",
+            "viewing notes"
+          ],
           "collect": [],
-          "hold": [],
+          "hold": [
+            "no Whately this week"
+          ],
           "due": []
         },
         "Tuesday": {
-          "run": "No high school",
-          "have": [],
+          "run": "Continue Macbeth viewing",
+          "have": [
+            "Macbeth viewing",
+            "viewing notes"
+          ],
           "collect": [],
-          "hold": [],
+          "hold": [
+            "no Whately this week"
+          ],
           "due": []
         },
         "Wednesday": {
-          "run": "Intro to class and syllabus",
-          "have": ["syllabus"],
+          "run": "Finish Macbeth if needed; introduce Informal Paper 1",
+          "have": [
+            "Macbeth viewing",
+            "Informal Paper 1 prompt",
+            "viewing notes"
+          ],
           "collect": [],
-          "hold": ["no Whately this week"],
+          "hold": [
+            "no Whately this week"
+          ],
           "due": []
         },
         "Thursday": {
-          "run": "Begin Macbeth viewing",
-          "have": ["Macbeth viewing", "viewing notes"],
+          "run": "Write Informal Paper 1",
+          "have": [
+            "Informal Paper 1 prompt",
+            "viewing notes",
+            "lined paper"
+          ],
           "collect": [],
-          "hold": ["no Whately this week"],
-          "due": []
+          "hold": [
+            "no Whately this week"
+          ],
+          "due": [
+            {
+              "name": "Informal Paper 1 \u2014 In Macbeth, who are you?",
+              "id": null,
+              "due": null,
+              "note": "paper due pending Friday review lock"
+            }
+          ]
         },
         "Friday": {
-          "run": "Continue Macbeth viewing",
-          "have": ["Macbeth viewing", "viewing notes"],
+          "run": "Write/submit Informal Paper 1; portfolio check",
+          "have": [
+            "Informal Paper 1 prompt",
+            "lined paper",
+            "student portfolios"
+          ],
           "collect": [],
-          "hold": ["no Whately this week"],
-          "due": []
+          "hold": [
+            "no Whately this week"
+          ],
+          "due": [
+            {
+              "name": "Informal Paper 1 \u2014 In Macbeth, who are you?",
+              "id": null,
+              "due": null,
+              "note": "paper due pending Friday review lock"
+            }
+          ]
         }
       }
     }
