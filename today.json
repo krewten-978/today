@@ -1,7 +1,7 @@
 {
   "week_of": "2026-09-28",
   "timezone": "America/Los_Angeles",
-  "updated": "2026-09-25T11:51:00-07:00",
+  "updated": "2026-10-01T12:37:00-07:00",
   "audience": "teacher",
   "bells": [
     {
@@ -94,7 +94,7 @@
   ],
   "courses": {
     "Eng II": {
-      "title": "Origin Ladder leftover / Homer / Vocabulary Week 3",
+      "title": "Homer story / Vocabulary Week 3",
       "days": {
         "Monday": {
           "run": "Origin Ladder (U1L1OL); introduce weekly vocabulary",
@@ -171,9 +171,10 @@
           ]
         },
         "Friday": {
-          "run": "verbal vocabulary test; finish Focus Lab (U1L2FL) if needed; portfolio check",
+          "run": "verbal vocabulary test; Friday story the inn becomes a castle; portfolio check",
           "have": [
-            "Focus Lab worksheets (U1L2FL)",
+            "Friday story the inn becomes a castle",
+            "teacher guide (U1L2STG) 1 copy",
             "Vocabulary Week 3 verbal-test script",
             "student portfolios"
           ],
@@ -181,6 +182,7 @@
             "Focus Lab worksheets (U1L2FL)"
           ],
           "hold": [
+            "do not issue Lesson 3",
             "do not issue origin reader"
           ],
           "due": []
@@ -188,7 +190,7 @@
       }
     },
     "Eng IV": {
-      "title": "Malory Weeks 4-6 then short paper",
+      "title": "Malory Lesson 5B",
       "days": {
         "Monday": {
           "run": "student reader Week 4 packet; teacher guide (U1L4TG) 1 copy",
@@ -241,22 +243,23 @@
           "due": []
         },
         "Friday": {
-          "run": "Weeks 4-6 short paper day 2; portfolio check",
+          "run": "student reader Lesson 5B; teacher guide (L5BTG) 1 copy; portfolio check",
           "have": [
-            "Weeks 4-6 short paper sheets",
-            "leftover Week 4-6 student readers",
+            "student reader Lesson 5B",
+            "teacher guide (L5BTG) 1 copy",
             "student portfolios"
           ],
           "collect": [],
           "hold": [
-            "do not open Week 7"
+            "do not issue Lesson 5C",
+            "do not issue the Weeks 4-6 paper"
           ],
           "due": []
         }
       }
     },
     "WR 121": {
-      "title": "Finish Informal Paper 2 / Whately Cycle 2",
+      "title": "Finish Informal Paper 3",
       "days": {
         "Monday": {
           "run": "finish Informal Paper 2 — What is life?",
@@ -341,7 +344,7 @@
             "Informal Paper 3 — Why does the universe exist rather than nothing?"
           ],
           "hold": [
-            "no Week 5 lecture"
+            "no Week 3 reading"
           ],
           "due": [
             {
