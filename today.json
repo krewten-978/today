@@ -1,7 +1,7 @@
 {
-  "week_of": "2026-09-28",
+  "week_of": "2026-10-05",
   "timezone": "America/Los_Angeles",
-  "updated": "2026-10-01T12:37:00-07:00",
+  "updated": "2026-10-02T07:08:06-07:00",
   "audience": "teacher",
   "bells": [
     {
@@ -94,266 +94,224 @@
   ],
   "courses": {
     "Eng II": {
-      "title": "Homer story / Vocabulary Week 3",
+      "title": "Bacon / Vocabulary Week 4",
       "days": {
         "Monday": {
-          "run": "Origin Ladder (U1L1OL); introduce weekly vocabulary",
+          "run": "student reader Bacon Four Idols; teacher guide (U1L3TG) 1 copy; introduce weekly vocabulary",
           "have": [
-            "Origin Ladder worksheets (U1L1OL)",
-            "Vocabulary Week 3 deck"
+            "student reader Bacon Four Idols",
+            "teacher guide (U1L3TG) 1 copy",
+            "Vocabulary Week 4 deck"
           ],
           "collect": [],
           "hold": [
-            "do not issue student reader Homer Sirens"
-          ],
-          "due": [
-            {
-              "name": "Origin Ladder (U1L1OL)",
-              "id": "U1L1OL",
-              "due": "2026-09-29",
-              "note": "assigned Monday; collect Tuesday"
-            }
-          ]
-        },
-        "Tuesday": {
-          "run": "state testing; if time literary buildup Don Quixote",
-          "have": [
-            "testing materials",
-            "literary buildup Don Quixote (unissued until leftover time)"
-          ],
-          "collect": [
-            "Origin Ladder (U1L1OL)"
-          ],
-          "hold": [
-            "do not issue student reader Homer Sirens",
-            "hold literary buildup Don Quixote unless testing leaves time"
+            "do not issue Focus Lab (U1L3FL)"
           ],
           "due": []
         },
-        "Wednesday": {
-          "run": "student reader Homer Sirens; teacher guide (U1L2TG) 1 copy; Vocab Pics",
+        "Tuesday": {
+          "run": "Bacon Focus Lab (U1L3FL)",
           "have": [
-            "student reader Homer Sirens",
-            "teacher guide (U1L2TG) 1 copy",
-            "Vocab Pics (hypothesis, inevitable, legitimate, meticulous, negotiate, objective)"
+            "Focus Lab worksheets (U1L3FL)",
+            "student reader Bacon Four Idols"
           ],
           "collect": [],
           "hold": [
-            "do not issue Focus Lab (U1L2FL)",
-            "do not issue origin reader"
+            "do not issue Friday story Don Quixote tries to right wrongs"
+          ],
+          "due": [
+            {
+              "name": "Focus Lab worksheets (U1L3FL)",
+              "id": "U1L3FL",
+              "due": "2026-10-07",
+              "note": "assigned Tuesday; collect Wednesday"
+            }
+          ]
+        },
+        "Wednesday": {
+          "run": "Friday story Don Quixote tries to right wrongs; teacher guide (U1L3STG) 1 copy; Vocab Pics",
+          "have": [
+            "Friday story Don Quixote tries to right wrongs",
+            "teacher guide (U1L3STG) 1 copy",
+            "Vocab Pics (perspective, plausible, profound, reluctant, synthesize, tenacious)"
+          ],
+          "collect": [
+            "Focus Lab worksheets (U1L3FL)"
+          ],
+          "hold": [
+            "do not issue student reader Augustine"
           ],
           "due": [
             {
               "name": "Vocab Pics",
               "id": null,
-              "due": "2026-09-30",
+              "due": "2026-10-07",
               "note": "due same Wednesday"
             }
           ]
         },
         "Thursday": {
-          "run": "Homer Focus Lab (U1L2FL)",
+          "run": "student reader Augustine Divided Will; teacher guide (U1L4TG) 1 copy; verbal vocabulary test; portfolio check",
           "have": [
-            "Focus Lab worksheets (U1L2FL)",
-            "student reader Homer Sirens"
+            "student reader Augustine Divided Will",
+            "teacher guide (U1L4TG) 1 copy",
+            "Vocabulary Week 4 verbal-test script",
+            "student portfolios"
           ],
           "collect": [],
           "hold": [
-            "do not issue origin reader"
+            "do not issue Focus Lab (U1L4FL)"
           ],
-          "due": [
-            {
-              "name": "Focus Lab worksheets (U1L2FL)",
-              "id": "U1L2FL",
-              "due": "2026-10-02",
-              "note": "assigned Thursday; collect Friday"
-            }
-          ]
+          "due": []
         },
         "Friday": {
-          "run": "verbal vocabulary test; Friday story the inn becomes a castle; portfolio check",
-          "have": [
-            "Friday story the inn becomes a castle",
-            "teacher guide (U1L2STG) 1 copy",
-            "Vocabulary Week 3 verbal-test script",
-            "student portfolios"
-          ],
-          "collect": [
-            "Focus Lab worksheets (U1L2FL)"
-          ],
-          "hold": [
-            "do not issue Lesson 3",
-            "do not issue origin reader"
-          ],
+          "run": "Work Day/PD",
+          "have": [],
+          "collect": [],
+          "hold": [],
           "due": []
         }
       }
     },
     "Eng IV": {
-      "title": "Malory Lesson 5B",
+      "title": "Malory Lesson 5C if 5B closed",
       "days": {
         "Monday": {
-          "run": "student reader Week 4 packet; teacher guide (U1L4TG) 1 copy",
+          "run": "student reader Lesson 5C if 5B closed Friday; otherwise finish Lesson 5B",
           "have": [
-            "student reader Week 4 packet",
-            "teacher guide (U1L4TG) 1 copy"
+            "student reader Lesson 5C",
+            "teacher guide (L5CTG) 1 copy",
+            "student reader Lesson 5B leftover"
           ],
           "collect": [],
           "hold": [
-            "hold Week 5"
+            "do not issue Lesson 5C on unfinished 5B",
+            "do not issue the Weeks 4-6 paper"
           ],
           "due": []
         },
         "Tuesday": {
-          "run": "student reader Week 5 packet; teacher guide (U1L5TG) 1 copy",
+          "run": "student reader Lesson 5D if Monday was 5C; otherwise Lesson 5C",
           "have": [
-            "student reader Week 5 packet",
-            "teacher guide (U1L5TG) 1 copy"
+            "student reader Lesson 5D",
+            "teacher guide (L5DTG) 1 copy",
+            "student reader Lesson 5C"
           ],
           "collect": [],
           "hold": [
-            "hold Week 6",
-            "do not open Weeks 4-6 short paper"
+            "do not skip the next letter",
+            "do not issue the Weeks 4-6 paper"
           ],
           "due": []
         },
         "Wednesday": {
-          "run": "student reader Week 6 packet; teacher guide (U1L6TG) 1 copy",
+          "run": "student reader Lesson 6A if the sequence held; otherwise the next open letter",
           "have": [
-            "student reader Week 6 packet",
-            "teacher guide (U1L6TG) 1 copy"
+            "student reader Lesson 6A",
+            "teacher guide (L6ATG) 1 copy"
           ],
           "collect": [],
           "hold": [
-            "do not open the short paper until Week 6 is done",
-            "drop art"
+            "do not tell who wins",
+            "do not issue the Weeks 4-6 paper"
           ],
           "due": []
         },
         "Thursday": {
-          "run": "Weeks 4-6 short paper day 1",
+          "run": "student reader Lesson 6B if the sequence held; portfolio check",
           "have": [
-            "Weeks 4-6 short paper sheets",
-            "leftover Week 4-6 student readers"
-          ],
-          "collect": [],
-          "hold": [
-            "do not open Week 7"
-          ],
-          "due": []
-        },
-        "Friday": {
-          "run": "student reader Lesson 5B; teacher guide (L5BTG) 1 copy; portfolio check",
-          "have": [
-            "student reader Lesson 5B",
-            "teacher guide (L5BTG) 1 copy",
+            "student reader Lesson 6B",
+            "teacher guide (L6BTG) 1 copy",
             "student portfolios"
           ],
           "collect": [],
           "hold": [
-            "do not issue Lesson 5C",
             "do not issue the Weeks 4-6 paper"
           ],
+          "due": []
+        },
+        "Friday": {
+          "run": "Work Day/PD",
+          "have": [],
+          "collect": [],
+          "hold": [],
           "due": []
         }
       }
     },
     "WR 121": {
-      "title": "Finish Informal Paper 3",
+      "title": "Whately Week 3 / Informal Paper 4",
       "days": {
         "Monday": {
-          "run": "finish Informal Paper 2 — What is life?",
+          "run": "Whately Week 3 reading",
           "have": [
-            "Informal Paper 2 leftover",
-            "lined paper"
-          ],
-          "collect": [
-            "Informal Paper 2 — What is life?"
-          ],
-          "hold": [
-            "hold Whately Week 2 reading"
-          ],
-          "due": [
-            {
-              "name": "Informal Paper 2 — What is life?",
-              "id": null,
-              "due": "2026-09-28",
-              "note": "finish leftover Cycle 1 paper Monday"
-            }
-          ]
-        },
-        "Tuesday": {
-          "run": "Whately Week 2 reading",
-          "have": [
-            "Whately Week 2 reading"
+            "Whately Week 3 reading"
           ],
           "collect": [],
           "hold": [
-            "hold Logic Lab (U1L2LL) until Wednesday"
+            "hold Week 3 lecture until Tuesday"
+          ],
+          "due": []
+        },
+        "Tuesday": {
+          "run": "Week 3 visual lecture",
+          "have": [
+            "Week 3 lecture folder (open index.html)"
+          ],
+          "collect": [],
+          "hold": [
+            "hold Informal Paper 4 until Wednesday",
+            "do not issue Logic Lab (U1L3LL)"
           ],
           "due": []
         },
         "Wednesday": {
-          "run": "Week 2 practice lecture; start Logic Lab (U1L2LL)",
+          "run": "introduce Informal Paper 4",
           "have": [
-            "Week 2 lecture folder (open index.html)",
-            "Logic Lab worksheets (U1L2LL)"
+            "Informal Paper 4 prewrite",
+            "lined paper"
           ],
           "collect": [],
           "hold": [
-            "hold Informal Paper 3 until Thursday"
+            "no dungeon"
           ],
           "due": [
             {
-              "name": "Logic Lab (U1L2LL)",
-              "id": "U1L2LL",
-              "due": "2026-10-01",
-              "note": "assigned Wednesday; collect Thursday"
+              "name": "Informal Paper 4 — Do we need death in order to have life?",
+              "id": null,
+              "due": "2026-10-08",
+              "note": "locked Friday review; submit Thursday"
             }
           ]
         },
         "Thursday": {
-          "run": "introduce Informal Paper 3",
+          "run": "Write/submit Informal Paper 4; portfolio check",
           "have": [
-            "Informal Paper 3 prewrite",
-            "lined paper"
-          ],
-          "collect": [
-            "Logic Lab (U1L2LL)"
-          ],
-          "hold": [
-            "no Cycle 3 reading"
-          ],
-          "due": [
-            {
-              "name": "Informal Paper 3 — Why does the universe exist rather than nothing?",
-              "id": null,
-              "due": "2026-10-02",
-              "note": "locked Friday review; submit Friday"
-            }
-          ]
-        },
-        "Friday": {
-          "run": "Write/submit Informal Paper 3; portfolio check",
-          "have": [
-            "Informal Paper 3 prewrite",
+            "Informal Paper 4 prewrite",
             "lined paper",
             "student portfolios"
           ],
           "collect": [
-            "Informal Paper 3 — Why does the universe exist rather than nothing?"
+            "Informal Paper 4 — Do we need death in order to have life?"
           ],
           "hold": [
-            "no Week 3 reading"
+            "no dungeon"
           ],
           "due": [
             {
-              "name": "Informal Paper 3 — Why does the universe exist rather than nothing?",
+              "name": "Informal Paper 4 — Do we need death in order to have life?",
               "id": null,
-              "due": "2026-10-02",
-              "note": "locked Friday review; submit Friday"
+              "due": "2026-10-08",
+              "note": "locked Friday review; submit Thursday"
             }
           ]
+        },
+        "Friday": {
+          "run": "Work Day/PD",
+          "have": [],
+          "collect": [],
+          "hold": [],
+          "due": []
         }
       }
     }
