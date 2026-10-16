@@ -1,7 +1,7 @@
 {
-  "week_of": "2026-10-12",
+  "week_of": "2026-10-19",
   "timezone": "America/Los_Angeles",
-  "updated": "2026-10-09T07:11:04-07:00",
+  "updated": "2026-10-16T10:21:56-07:00",
   "audience": "teacher",
   "bells": [
     {
@@ -94,88 +94,33 @@
   ],
   "courses": {
     "Eng II": {
-      "title": "Lesson 3 stories / Augustine / Vocabulary Week 5",
+      "title": "Augustine lab / Kant / Vocabulary Week 6",
       "days": {
         "Monday": {
-          "run": "Friday story Don Quixote tries to right wrongs; teacher guide (U1L3STG) 1 copy; introduce weekly vocabulary",
-          "have": [
-            "Friday story Don Quixote tries to right wrongs",
-            "teacher guide (U1L3STG) 1 copy",
-            "Vocabulary Week 5 deck"
-          ],
-          "collect": [
-            "Focus Lab worksheets (U1L3FL)"
-          ],
-          "hold": [
-            "do not issue Friday story The Inn Becomes a Castle"
-          ],
-          "due": [
-            {
-              "name": "Focus Lab worksheets (U1L3FL)",
-              "id": "U1L3FL",
-              "due": "2026-10-12",
-              "note": "assigned Thursday; collect Monday"
-            }
-          ]
-        },
-        "Tuesday": {
-          "run": "Friday story The Inn Becomes a Castle; teacher guide (U1L2STG) 1 copy",
-          "have": [
-            "Friday story The Inn Becomes a Castle",
-            "teacher guide (U1L2STG) 1 copy"
-          ],
-          "collect": [],
-          "hold": [
-            "do not issue student reader Augustine"
-          ],
-          "due": []
-        },
-        "Wednesday": {
-          "run": "student reader Augustine Divided Will; teacher guide (U1L4TG) 1 copy; Vocab Pics",
-          "have": [
-            "student reader Augustine Divided Will",
-            "teacher guide (U1L4TG) 1 copy",
-            "Vocab Pics (anecdote, comprehensive, deliberate, empirical, facilitate, inherent)"
-          ],
-          "collect": [],
-          "hold": [
-            "do not issue Focus Lab (U1L4FL)"
-          ],
-          "due": [
-            {
-              "name": "Vocab Pics",
-              "id": null,
-              "due": "2026-10-14",
-              "note": "due same Wednesday"
-            }
-          ]
-        },
-        "Thursday": {
-          "run": "Augustine Focus Lab (U1L4FL)",
+          "run": "Augustine Focus Lab (U1L4FL); introduce weekly vocabulary",
           "have": [
             "Focus Lab worksheets (U1L4FL)",
-            "student reader Augustine Divided Will"
+            "Vocabulary Week 6 deck"
           ],
           "collect": [],
           "hold": [
-            "do not issue Friday story The Books Are Put on Trial"
+            "do not issue Friday story The Books Are Put on Trial",
+            "do not issue Friday story The Inn Becomes a Castle"
           ],
           "due": [
             {
               "name": "Focus Lab worksheets (U1L4FL)",
               "id": "U1L4FL",
-              "due": "2026-10-16",
-              "note": "assigned Thursday; collect Friday"
+              "due": "2026-10-20",
+              "note": "assigned Monday; collect Tuesday"
             }
           ]
         },
-        "Friday": {
-          "run": "Friday story The Books Are Put on Trial; teacher guide (U1L4STG) 1 copy; verbal vocabulary test; portfolio check",
+        "Tuesday": {
+          "run": "Friday story The Books Are Put on Trial; teacher guide (U1L4STG) 1 copy",
           "have": [
             "Friday story The Books Are Put on Trial",
-            "teacher guide (U1L4STG) 1 copy",
-            "Vocabulary Week 5 verbal-test script",
-            "student portfolios"
+            "teacher guide (U1L4STG) 1 copy"
           ],
           "collect": [
             "Focus Lab worksheets (U1L4FL)"
@@ -187,7 +132,70 @@
             {
               "name": "Focus Lab worksheets (U1L4FL)",
               "id": "U1L4FL",
-              "due": "2026-10-16",
+              "due": "2026-10-20",
+              "note": "assigned Monday; collect Tuesday"
+            }
+          ]
+        },
+        "Wednesday": {
+          "run": "student reader Kant Enlightenment; teacher guide (U1L5TG) 1 copy; Vocab Pics",
+          "have": [
+            "student reader Kant Enlightenment",
+            "teacher guide (U1L5TG) 1 copy",
+            "Vocab Pics (logical, mitigate, notion, prevalent, rational, speculate)"
+          ],
+          "collect": [],
+          "hold": [
+            "do not issue Focus Lab (U1L5FL)"
+          ],
+          "due": [
+            {
+              "name": "Vocab Pics",
+              "id": null,
+              "due": "2026-10-21",
+              "note": "due same Wednesday"
+            }
+          ]
+        },
+        "Thursday": {
+          "run": "Kant Focus Lab (U1L5FL)",
+          "have": [
+            "Focus Lab worksheets (U1L5FL)",
+            "student reader Kant Enlightenment"
+          ],
+          "collect": [],
+          "hold": [
+            "do not issue Friday story Sancho Joins the Story"
+          ],
+          "due": [
+            {
+              "name": "Focus Lab worksheets (U1L5FL)",
+              "id": "U1L5FL",
+              "due": "2026-10-23",
+              "note": "assigned Thursday; collect Friday"
+            }
+          ]
+        },
+        "Friday": {
+          "run": "Friday story Sancho Joins the Story; teacher guide (U1L5STG) 1 copy; verbal vocabulary test; portfolio check",
+          "have": [
+            "Friday story Sancho Joins the Story",
+            "teacher guide (U1L5STG) 1 copy",
+            "Vocabulary Week 6 verbal-test script",
+            "student portfolios"
+          ],
+          "collect": [
+            "Focus Lab worksheets (U1L5FL)"
+          ],
+          "hold": [
+            "do not issue student reader Nietzsche",
+            "do not issue Friday story The Inn Becomes a Castle"
+          ],
+          "due": [
+            {
+              "name": "Focus Lab worksheets (U1L5FL)",
+              "id": "U1L5FL",
+              "due": "2026-10-23",
               "note": "assigned Thursday; collect Friday"
             }
           ]
@@ -195,49 +203,38 @@
       }
     },
     "Eng IV": {
-      "title": "Weeks 4-6 short paper / Lessons 7A 7B 8A",
+      "title": "Lessons 7A-7C / 8A-8B",
       "days": {
         "Monday": {
-          "run": "Weeks 4-6 short paper day 1 if 6B closed; otherwise finish Lesson 6B",
+          "run": "student reader Lesson 7A The Counterfeit Sword; teacher guide (L7ATG) 1 copy",
           "have": [
-            "Weeks 4-6 short paper",
-            "student reader Lesson 6B leftover"
-          ],
-          "collect": [],
-          "hold": [
-            "do not issue Lesson 7A on unfinished 6B or unfinished paper"
-          ],
-          "due": []
-        },
-        "Tuesday": {
-          "run": "Weeks 4-6 short paper day 2",
-          "have": [
-            "Weeks 4-6 short paper",
-            "lined paper"
-          ],
-          "collect": [],
-          "hold": [
-            "do not issue Lesson 7A on an unfinished short paper"
-          ],
-          "due": []
-        },
-        "Wednesday": {
-          "run": "student reader Lesson 7A Lancelot and Turquine; teacher guide (L7ATG) 1 copy",
-          "have": [
-            "student reader Lesson 7A",
+            "student reader Lesson 7A The Counterfeit Sword",
             "teacher guide (L7ATG) 1 copy"
           ],
           "collect": [],
           "hold": [
+            "if Weeks 4-6 paper is still open, finish it first",
             "do not issue Lesson 7B"
           ],
           "due": []
         },
-        "Thursday": {
-          "run": "student reader Lesson 7B Peris and Tintagel; teacher guide (L7BTG) 1 copy",
+        "Tuesday": {
+          "run": "student reader Lesson 7B Sent as a Present; teacher guide (L7BTG) 1 copy",
           "have": [
-            "student reader Lesson 7B",
+            "student reader Lesson 7B Sent as a Present",
             "teacher guide (L7BTG) 1 copy"
+          ],
+          "collect": [],
+          "hold": [
+            "do not issue Lesson 7C"
+          ],
+          "due": []
+        },
+        "Wednesday": {
+          "run": "student reader Lesson 7C Burnt to Coals; teacher guide (L7CTG) 1 copy",
+          "have": [
+            "student reader Lesson 7C Burnt to Coals",
+            "teacher guide (L7CTG) 1 copy"
           ],
           "collect": [],
           "hold": [
@@ -245,116 +242,129 @@
           ],
           "due": []
         },
-        "Friday": {
-          "run": "student reader Lesson 8A Tristram and Marhaus; teacher guide (L8ATG) 1 copy; portfolio check",
+        "Thursday": {
+          "run": "student reader Lesson 8A I Will None of You; teacher guide (L8ATG) 1 copy",
           "have": [
-            "student reader Lesson 8A",
-            "teacher guide (L8ATG) 1 copy",
+            "student reader Lesson 8A I Will None of You",
+            "teacher guide (L8ATG) 1 copy"
+          ],
+          "collect": [],
+          "hold": [
+            "do not issue Lesson 8B"
+          ],
+          "due": []
+        },
+        "Friday": {
+          "run": "student reader Lesson 8B Four White Shields; teacher guide (L8BTG) 1 copy; portfolio check",
+          "have": [
+            "student reader Lesson 8B Four White Shields",
+            "teacher guide (L8BTG) 1 copy",
             "student portfolios"
           ],
           "collect": [],
           "hold": [
-            "do not issue Lesson 8B",
-            "do not start Beowulf"
+            "do not issue Lesson 8C",
+            "do not start the Weeks 7-9 paper"
           ],
           "due": []
         }
       }
     },
     "WR 121": {
-      "title": "Logic Dungeon I",
+      "title": "Informal Paper 5",
       "days": {
         "Monday": {
-          "run": "review Cycles 1-3; introduce Logic Dungeon I (U1F1LD)",
+          "run": "review; introduce Informal Paper 5 Can we know anything with certainty?",
           "have": [
-            "Logic Dungeon I worksheets (U1F1LD)"
+            "lined paper",
+            "leftover Week 4 reading if needed"
           ],
           "collect": [],
           "hold": [
-            "do not issue Whately Week 4",
-            "do not issue Logic Lab (U1L4LL)"
+            "do not issue Whately Week 5",
+            "do not issue Logic Lab (U1L5LL)",
+            "do not copy Week 5 lecture unless added"
           ],
           "due": [
             {
-              "name": "Logic Dungeon I (U1F1LD)",
-              "id": "U1F1LD",
-              "due": "2026-10-16",
-              "note": "locked Friday review; submit Friday"
+              "name": "Informal Paper 5",
+              "id": null,
+              "due": "2026-10-23",
+              "note": "locked Friday review; due Friday"
             }
           ]
         },
         "Tuesday": {
-          "run": "Logic Dungeon I (U1F1LD)",
+          "run": "Informal Paper 5 Can we know anything with certainty?",
           "have": [
-            "Logic Dungeon I worksheets (U1F1LD)"
+            "lined paper"
           ],
           "collect": [],
           "hold": [
-            "do not issue Cycle 4"
+            "do not issue Cycle 5"
           ],
           "due": [
             {
-              "name": "Logic Dungeon I (U1F1LD)",
-              "id": "U1F1LD",
-              "due": "2026-10-16",
-              "note": "locked Friday review; submit Friday"
+              "name": "Informal Paper 5",
+              "id": null,
+              "due": "2026-10-23",
+              "note": "locked Friday review; due Friday"
             }
           ]
         },
         "Wednesday": {
-          "run": "Logic Dungeon I (U1F1LD)",
+          "run": "Informal Paper 5 Can we know anything with certainty?",
           "have": [
-            "Logic Dungeon I worksheets (U1F1LD)"
+            "lined paper"
           ],
           "collect": [],
           "hold": [
-            "no informal paper"
+            "do not issue Formal Paper A"
           ],
           "due": [
             {
-              "name": "Logic Dungeon I (U1F1LD)",
-              "id": "U1F1LD",
-              "due": "2026-10-16",
-              "note": "locked Friday review; submit Friday"
+              "name": "Informal Paper 5",
+              "id": null,
+              "due": "2026-10-23",
+              "note": "locked Friday review; due Friday"
             }
           ]
         },
         "Thursday": {
-          "run": "Logic Dungeon I (U1F1LD)",
+          "run": "Informal Paper 5 Can we know anything with certainty?",
           "have": [
-            "Logic Dungeon I worksheets (U1F1LD)"
+            "lined paper"
           ],
           "collect": [],
           "hold": [
-            "do not issue Cycle 4"
+            "do not issue Formal Paper A"
           ],
           "due": [
             {
-              "name": "Logic Dungeon I (U1F1LD)",
-              "id": "U1F1LD",
-              "due": "2026-10-16",
-              "note": "locked Friday review; submit Friday"
+              "name": "Informal Paper 5",
+              "id": null,
+              "due": "2026-10-23",
+              "note": "locked Friday review; due Friday"
             }
           ]
         },
         "Friday": {
-          "run": "finish/submit Logic Dungeon I (U1F1LD); portfolio check",
+          "run": "Informal Paper 5 Can we know anything with certainty?; portfolio check",
           "have": [
-            "Logic Dungeon I worksheets (U1F1LD)",
+            "lined paper",
             "student portfolios"
           ],
-          "collect": [
-            "Logic Dungeon I (U1F1LD)"
-          ],
+          "collect": [],
           "hold": [
-            "do not issue Cycle 4"
+            "do not issue Formal Paper A",
+            "do not issue Logic Dungeon I (U1F1LD)"
           ],
           "due": [
             {
-              "name": "Logic Dungeon I (U1F1LD)",
-              "id": "U1F1LD",
-              "due": "2026-10-16",
-              "note": "locked Friday review; submit Friday"
+              "name": "Informal Paper 5",
+              "id": null,
+              "due": "2026-10-23",
+              "note": "locked Friday review; due Friday"
             }
           ]
         }
