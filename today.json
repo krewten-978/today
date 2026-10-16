@@ -1,7 +1,7 @@
 {
   "week_of": "2026-10-19",
   "timezone": "America/Los_Angeles",
-  "updated": "2026-10-16T10:21:56-07:00",
+  "updated": "2026-10-16T10:35:00-07:00",
   "audience": "teacher",
   "bells": [
     {
@@ -94,29 +94,60 @@
   ],
   "courses": {
     "Eng II": {
-      "title": "Augustine lab / Kant / Vocabulary Week 6",
+      "title": "Bacon story / Augustine / Vocabulary Week 6",
       "days": {
         "Monday": {
-          "run": "Augustine Focus Lab (U1L4FL); introduce weekly vocabulary",
+          "run": "Friday story Don Quixote tries to right wrongs; teacher guide (U1L3STG) 1 copy; introduce weekly vocabulary",
           "have": [
-            "Focus Lab worksheets (U1L4FL)",
+            "Friday story Don Quixote tries to right wrongs",
+            "teacher guide (U1L3STG) 1 copy",
             "Vocabulary Week 6 deck"
           ],
           "collect": [],
           "hold": [
-            "do not issue Friday story The Books Are Put on Trial",
+            "do not issue student reader Augustine",
             "do not issue Friday story The Inn Becomes a Castle"
+          ],
+          "due": []
+        },
+        "Tuesday": {
+          "run": "student reader Augustine Divided Will; teacher guide (U1L4TG) 1 copy",
+          "have": [
+            "student reader Augustine Divided Will",
+            "teacher guide (U1L4TG) 1 copy"
+          ],
+          "collect": [],
+          "hold": [
+            "do not issue Focus Lab (U1L4FL)"
+          ],
+          "due": []
+        },
+        "Wednesday": {
+          "run": "Augustine Focus Lab (U1L4FL); Vocab Pics",
+          "have": [
+            "Focus Lab worksheets (U1L4FL)",
+            "Vocab Pics (logical, mitigate, notion, prevalent, rational, speculate)"
+          ],
+          "collect": [],
+          "hold": [
+            "do not issue Friday story The Books Are Put on Trial"
           ],
           "due": [
             {
+              "name": "Vocab Pics",
+              "id": null,
+              "due": "2026-10-21",
+              "note": "due same Wednesday"
+            },
+            {
               "name": "Focus Lab worksheets (U1L4FL)",
               "id": "U1L4FL",
-              "due": "2026-10-20",
-              "note": "assigned Monday; collect Tuesday"
+              "due": "2026-10-22",
+              "note": "assigned Wednesday; collect Thursday"
             }
           ]
         },
-        "Tuesday": {
+        "Thursday": {
           "run": "Friday story The Books Are Put on Trial; teacher guide (U1L4STG) 1 copy",
           "have": [
             "Friday story The Books Are Put on Trial",
@@ -132,73 +163,26 @@
             {
               "name": "Focus Lab worksheets (U1L4FL)",
               "id": "U1L4FL",
-              "due": "2026-10-20",
-              "note": "assigned Monday; collect Tuesday"
-            }
-          ]
-        },
-        "Wednesday": {
-          "run": "student reader Kant Enlightenment; teacher guide (U1L5TG) 1 copy; Vocab Pics",
-          "have": [
-            "student reader Kant Enlightenment",
-            "teacher guide (U1L5TG) 1 copy",
-            "Vocab Pics (logical, mitigate, notion, prevalent, rational, speculate)"
-          ],
-          "collect": [],
-          "hold": [
-            "do not issue Focus Lab (U1L5FL)"
-          ],
-          "due": [
-            {
-              "name": "Vocab Pics",
-              "id": null,
-              "due": "2026-10-21",
-              "note": "due same Wednesday"
-            }
-          ]
-        },
-        "Thursday": {
-          "run": "Kant Focus Lab (U1L5FL)",
-          "have": [
-            "Focus Lab worksheets (U1L5FL)",
-            "student reader Kant Enlightenment"
-          ],
-          "collect": [],
-          "hold": [
-            "do not issue Friday story Sancho Joins the Story"
-          ],
-          "due": [
-            {
-              "name": "Focus Lab worksheets (U1L5FL)",
-              "id": "U1L5FL",
-              "due": "2026-10-23",
-              "note": "assigned Thursday; collect Friday"
+              "due": "2026-10-22",
+              "note": "assigned Wednesday; collect Thursday"
             }
           ]
         },
         "Friday": {
-          "run": "Friday story Sancho Joins the Story; teacher guide (U1L5STG) 1 copy; verbal vocabulary test; portfolio check",
+          "run": "student reader Kant Enlightenment; teacher guide (U1L5TG) 1 copy; verbal vocabulary test; portfolio check",
           "have": [
-            "Friday story Sancho Joins the Story",
-            "teacher guide (U1L5STG) 1 copy",
+            "student reader Kant Enlightenment",
+            "teacher guide (U1L5TG) 1 copy",
             "Vocabulary Week 6 verbal-test script",
             "student portfolios"
           ],
-          "collect": [
-            "Focus Lab worksheets (U1L5FL)"
-          ],
+          "collect": [],
           "hold": [
-            "do not issue student reader Nietzsche",
+            "do not issue Focus Lab (U1L5FL)",
+            "do not issue Friday story Sancho Joins the Story",
             "do not issue Friday story The Inn Becomes a Castle"
           ],
-          "due": [
-            {
-              "name": "Focus Lab worksheets (U1L5FL)",
-              "id": "U1L5FL",
-              "due": "2026-10-23",
-              "note": "assigned Thursday; collect Friday"
-            }
-          ]
+          "due": []
         }
       }
     },
@@ -206,15 +190,15 @@
       "title": "Lessons 7A-7C / 8A-8B",
       "days": {
         "Monday": {
-          "run": "student reader Lesson 7A The Counterfeit Sword; teacher guide (L7ATG) 1 copy",
+          "run": "finish student reader Lesson 7A The Counterfeit Sword; teacher guide (L7ATG) 1 copy",
           "have": [
             "student reader Lesson 7A The Counterfeit Sword",
             "teacher guide (L7ATG) 1 copy"
           ],
           "collect": [],
           "hold": [
-            "if Weeks 4-6 paper is still open, finish it first",
-            "do not issue Lesson 7B"
+            "do not skip to Lesson 7B",
+            "do not restore deleted Gareth 6A/6B"
           ],
           "due": []
         },
@@ -271,59 +255,44 @@
       }
     },
     "WR 121": {
-      "title": "Informal Paper 5",
+      "title": "Whately Cycle 5",
       "days": {
         "Monday": {
-          "run": "review; introduce Informal Paper 5 Can we know anything with certainty?",
+          "run": "Whately Week 5 visual lecture; copy whole lecture folder; open index.html",
           "have": [
-            "lined paper",
-            "leftover Week 4 reading if needed"
+            "Week 5 lecture folder"
           ],
           "collect": [],
           "hold": [
-            "do not issue Whately Week 5",
-            "do not issue Logic Lab (U1L5LL)",
-            "do not copy Week 5 lecture unless added"
+            "do not issue Whately Week 5 reading yet",
+            "do not issue Logic Lab (U1L5LL)"
           ],
-          "due": [
-            {
-              "name": "Informal Paper 5",
-              "id": null,
-              "due": "2026-10-23",
-              "note": "locked Friday review; due Friday"
-            }
-          ]
+          "due": []
         },
         "Tuesday": {
-          "run": "Informal Paper 5 Can we know anything with certainty?",
+          "run": "Whately Week 5 reading",
           "have": [
-            "lined paper"
+            "Whately Week 5 reading"
           ],
           "collect": [],
           "hold": [
-            "do not issue Cycle 5"
+            "do not issue Logic Lab (U1L5LL)"
           ],
-          "due": [
-            {
-              "name": "Informal Paper 5",
-              "id": null,
-              "due": "2026-10-23",
-              "note": "locked Friday review; due Friday"
-            }
-          ]
+          "due": []
         },
         "Wednesday": {
-          "run": "Informal Paper 5 Can we know anything with certainty?",
+          "run": "weekly paper Can an argument be well formed and still fail to prove what matters?",
           "have": [
             "lined paper"
           ],
           "collect": [],
           "hold": [
-            "do not issue Formal Paper A"
+            "do not issue Formal Paper A",
+            "do not issue Logic Lab (U1L5LL)"
           ],
           "due": [
             {
-              "name": "Informal Paper 5",
+              "name": "weekly paper Can an argument be well formed and still fail to prove what matters?",
               "id": null,
               "due": "2026-10-23",
               "note": "locked Friday review; due Friday"
@@ -331,7 +300,7 @@
           ]
         },
         "Thursday": {
-          "run": "Informal Paper 5 Can we know anything with certainty?",
+          "run": "weekly paper Can an argument be well formed and still fail to prove what matters?",
           "have": [
             "lined paper"
           ],
@@ -341,7 +310,7 @@
           ],
           "due": [
             {
-              "name": "Informal Paper 5",
+              "name": "weekly paper Can an argument be well formed and still fail to prove what matters?",
               "id": null,
               "due": "2026-10-23",
               "note": "locked Friday review; due Friday"
@@ -349,7 +318,7 @@
           ]
         },
         "Friday": {
-          "run": "Informal Paper 5 Can we know anything with certainty?; portfolio check",
+          "run": "weekly paper Can an argument be well formed and still fail to prove what matters?; portfolio check",
           "have": [
             "lined paper",
             "student portfolios"
@@ -361,7 +330,7 @@
           ],
           "due": [
             {
-              "name": "Informal Paper 5",
+              "name": "weekly paper Can an argument be well formed and still fail to prove what matters?",
               "id": null,
               "due": "2026-10-23",
               "note": "locked Friday review; due Friday"
