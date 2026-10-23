@@ -1,7 +1,7 @@
 {
-  "week_of": "2026-10-19",
+  "week_of": "2026-10-26",
   "timezone": "America/Los_Angeles",
-  "updated": "2026-10-16T10:35:00-07:00",
+  "updated": "2026-10-23T07:15:00-07:00",
   "audience": "teacher",
   "bells": [
     {
@@ -94,246 +94,279 @@
   ],
   "courses": {
     "Eng II": {
-      "title": "Bacon story / Augustine / Vocabulary Week 6",
+      "title": "Kant / Nietzsche / Vocabulary Week 7",
       "days": {
         "Monday": {
-          "run": "Friday story Don Quixote tries to right wrongs; teacher guide (U1L3STG) 1 copy; introduce weekly vocabulary",
+          "run": "student reader Kant Enlightenment Courage; teacher guide (U1L5TG) 1 copy; introduce weekly vocabulary",
           "have": [
-            "Friday story Don Quixote tries to right wrongs",
-            "teacher guide (U1L3STG) 1 copy",
-            "Vocabulary Week 6 deck"
-          ],
-          "collect": [],
-          "hold": [
-            "do not issue student reader Augustine",
-            "do not issue Friday story The Inn Becomes a Castle"
-          ],
-          "due": []
-        },
-        "Tuesday": {
-          "run": "student reader Augustine Divided Will; teacher guide (U1L4TG) 1 copy",
-          "have": [
-            "student reader Augustine Divided Will",
-            "teacher guide (U1L4TG) 1 copy"
-          ],
-          "collect": [],
-          "hold": [
-            "do not issue Focus Lab (U1L4FL)"
-          ],
-          "due": []
-        },
-        "Wednesday": {
-          "run": "Augustine Focus Lab (U1L4FL); Vocab Pics",
-          "have": [
-            "Focus Lab worksheets (U1L4FL)",
-            "Vocab Pics (logical, mitigate, notion, prevalent, rational, speculate)"
-          ],
-          "collect": [],
-          "hold": [
-            "do not issue Friday story The Books Are Put on Trial"
-          ],
-          "due": [
-            {
-              "name": "Vocab Pics",
-              "id": null,
-              "due": "2026-10-21",
-              "note": "due same Wednesday"
-            },
-            {
-              "name": "Focus Lab worksheets (U1L4FL)",
-              "id": "U1L4FL",
-              "due": "2026-10-22",
-              "note": "assigned Wednesday; collect Thursday"
-            }
-          ]
-        },
-        "Thursday": {
-          "run": "Friday story The Books Are Put on Trial; teacher guide (U1L4STG) 1 copy",
-          "have": [
-            "Friday story The Books Are Put on Trial",
-            "teacher guide (U1L4STG) 1 copy"
+            "student reader Kant Enlightenment Courage",
+            "teacher guide (U1L5TG) 1 copy",
+            "Vocabulary Week 7 deck"
           ],
           "collect": [
             "Focus Lab worksheets (U1L4FL)"
           ],
           "hold": [
-            "do not issue student reader Kant"
+            "do not issue Focus Lab (U1L5FL)",
+            "do not reissue Friday story The Books Are Put on Trial",
+            "if U1L4FL still open, finish the lab before Kant"
+          ],
+          "due": []
+        },
+        "Tuesday": {
+          "run": "Kant Focus Lab (U1L5FL)",
+          "have": [
+            "Focus Lab worksheets (U1L5FL)"
+          ],
+          "collect": [],
+          "hold": [
+            "do not issue Friday story Sancho Joins the Story"
           ],
           "due": [
             {
-              "name": "Focus Lab worksheets (U1L4FL)",
-              "id": "U1L4FL",
-              "due": "2026-10-22",
-              "note": "assigned Wednesday; collect Thursday"
+              "name": "Focus Lab worksheets (U1L5FL)",
+              "id": "U1L5FL",
+              "due": "2026-10-28",
+              "note": "assigned Tuesday; collect Wednesday"
             }
           ]
         },
-        "Friday": {
-          "run": "student reader Kant Enlightenment; teacher guide (U1L5TG) 1 copy; verbal vocabulary test; portfolio check",
+        "Wednesday": {
+          "run": "Friday story Sancho Joins the Story; teacher guide (U1L5STG) 1 copy; Vocab Pics",
           "have": [
-            "student reader Kant Enlightenment",
-            "teacher guide (U1L5TG) 1 copy",
-            "Vocabulary Week 6 verbal-test script",
+            "Friday story Sancho Joins the Story",
+            "teacher guide (U1L5STG) 1 copy",
+            "Vocab Pics (undermine, verify, concise, distort, emphasize, gullible)"
+          ],
+          "collect": [
+            "Focus Lab worksheets (U1L5FL)"
+          ],
+          "hold": [
+            "do not issue student reader Nietzsche"
+          ],
+          "due": [
+            {
+              "name": "Vocab Pics",
+              "id": null,
+              "due": "2026-10-28",
+              "note": "due same Wednesday"
+            },
+            {
+              "name": "Focus Lab worksheets (U1L5FL)",
+              "id": "U1L5FL",
+              "due": "2026-10-28",
+              "note": "assigned Tuesday; collect Wednesday"
+            }
+          ]
+        },
+        "Thursday": {
+          "run": "student reader Nietzsche Truth as Metaphor; teacher guide (U1L6TG) 1 copy",
+          "have": [
+            "student reader Nietzsche Truth as Metaphor",
+            "teacher guide (U1L6TG) 1 copy"
+          ],
+          "collect": [],
+          "hold": [
+            "do not issue Focus Lab (U1L6FL)",
+            "if Kant story still open, finish it and slide Nietzsche"
+          ],
+          "due": []
+        },
+        "Friday": {
+          "run": "Nietzsche Focus Lab (U1L6FL); verbal vocabulary test; portfolio check",
+          "have": [
+            "Focus Lab worksheets (U1L6FL)",
+            "Vocabulary Week 7 verbal-test script",
             "student portfolios"
           ],
           "collect": [],
           "hold": [
-            "do not issue Focus Lab (U1L5FL)",
-            "do not issue Friday story Sancho Joins the Story",
-            "do not issue Friday story The Inn Becomes a Castle"
+            "do not issue Friday story Don Quixote Windmills"
           ],
-          "due": []
+          "due": [
+            {
+              "name": "Focus Lab worksheets (U1L6FL)",
+              "id": "U1L6FL",
+              "due": "2026-11-02",
+              "note": "assigned Friday; collect next school day"
+            }
+          ]
         }
       }
     },
     "Eng IV": {
-      "title": "Lessons 7A-7C / 8A-8B",
+      "title": "Lesson 8A-8E Lancelot",
       "days": {
         "Monday": {
-          "run": "finish student reader Lesson 7A The Counterfeit Sword; teacher guide (L7ATG) 1 copy",
+          "run": "student reader Lesson 8A I Will None of You; teacher guide (L8ATG) 1 copy",
           "have": [
-            "student reader Lesson 7A The Counterfeit Sword",
-            "teacher guide (L7ATG) 1 copy"
+            "student reader Lesson 8A I Will None of You",
+            "teacher guide (L8ATG) 1 copy",
+            "lined paper"
           ],
           "collect": [],
           "hold": [
-            "do not skip to Lesson 7B",
+            "if Morgan paper still open, finish it before 8A",
+            "do not issue Lesson 8B",
             "do not restore deleted Gareth 6A/6B"
           ],
           "due": []
         },
         "Tuesday": {
-          "run": "student reader Lesson 7B Sent as a Present; teacher guide (L7BTG) 1 copy",
+          "run": "student reader Lesson 8B Four White Shields; teacher guide (L8BTG) 1 copy",
           "have": [
-            "student reader Lesson 7B Sent as a Present",
-            "teacher guide (L7BTG) 1 copy"
+            "student reader Lesson 8B Four White Shields",
+            "teacher guide (L8BTG) 1 copy",
+            "lined paper"
           ],
           "collect": [],
           "hold": [
-            "do not issue Lesson 7C"
+            "do not issue Lesson 8C"
           ],
           "due": []
         },
         "Wednesday": {
-          "run": "student reader Lesson 7C Burnt to Coals; teacher guide (L7CTG) 1 copy",
+          "run": "student reader Lesson 8C I Am Lancelot; teacher guide (L8CTG) 1 copy",
           "have": [
-            "student reader Lesson 7C Burnt to Coals",
-            "teacher guide (L7CTG) 1 copy"
+            "student reader Lesson 8C I Am Lancelot",
+            "teacher guide (L8CTG) 1 copy",
+            "lined paper"
           ],
           "collect": [],
           "hold": [
-            "do not issue Lesson 8A"
+            "do not issue Lesson 8D"
           ],
           "due": []
         },
         "Thursday": {
-          "run": "student reader Lesson 8A I Will None of You; teacher guide (L8ATG) 1 copy",
+          "run": "student reader Lesson 8D Silk Works for Their Meat; teacher guide (L8DTG) 1 copy",
           "have": [
-            "student reader Lesson 8A I Will None of You",
-            "teacher guide (L8ATG) 1 copy"
+            "student reader Lesson 8D Silk Works for Their Meat",
+            "teacher guide (L8DTG) 1 copy",
+            "lined paper"
           ],
           "collect": [],
           "hold": [
-            "do not issue Lesson 8B"
+            "do not issue Lesson 8E"
           ],
           "due": []
         },
         "Friday": {
-          "run": "student reader Lesson 8B Four White Shields; teacher guide (L8BTG) 1 copy; portfolio check",
+          "run": "student reader Lesson 8E One Spear; teacher guide (L8ETG) 1 copy; portfolio check",
           "have": [
-            "student reader Lesson 8B Four White Shields",
-            "teacher guide (L8BTG) 1 copy",
+            "student reader Lesson 8E One Spear",
+            "teacher guide (L8ETG) 1 copy",
+            "lined paper",
             "student portfolios"
           ],
           "collect": [],
           "hold": [
-            "do not issue Lesson 8C",
-            "do not start the Weeks 7-9 paper"
+            "do not issue Lesson 8F",
+            "do not start Lesson 9 Gareth"
           ],
           "due": []
         }
       }
     },
     "WR 121": {
-      "title": "Whately Cycle 5",
+      "title": "Formal Paper A",
       "days": {
         "Monday": {
-          "run": "Whately Week 5 visual lecture; copy whole lecture folder; open index.html",
+          "run": "Formal Paper A planning scaffold (U1P1SP)",
           "have": [
-            "Week 5 lecture folder"
-          ],
-          "collect": [],
-          "hold": [
-            "do not issue Whately Week 5 reading yet",
-            "do not issue Logic Lab (U1L5LL)"
-          ],
-          "due": []
-        },
-        "Tuesday": {
-          "run": "Whately Week 5 reading",
-          "have": [
-            "Whately Week 5 reading"
-          ],
-          "collect": [],
-          "hold": [
-            "do not issue Logic Lab (U1L5LL)"
-          ],
-          "due": []
-        },
-        "Wednesday": {
-          "run": "weekly paper Can an argument be well formed and still fail to prove what matters?",
-          "have": [
+            "planning scaffold (U1P1SP)",
             "lined paper"
           ],
           "collect": [],
           "hold": [
-            "do not issue Formal Paper A",
-            "do not issue Logic Lab (U1L5LL)"
+            "if Week 5 paper still open, finish it first",
+            "do not issue Whately Week 6",
+            "do not issue Logic Lab (U1L6LL)"
           ],
           "due": [
             {
-              "name": "weekly paper Can an argument be well formed and still fail to prove what matters?",
-              "id": null,
-              "due": "2026-10-23",
-              "note": "locked Friday review; due Friday"
+              "name": "Formal Paper A typed (U1P1FP)",
+              "id": "U1P1FP",
+              "due": null,
+              "note": "typed due next Mon or Tue; lock in Friday review; do not print the date on the sheets"
+            }
+          ]
+        },
+        "Tuesday": {
+          "run": "Formal Paper A scaffold into handwritten draft (U1P1SP) (U1P1FP)",
+          "have": [
+            "planning scaffold (U1P1SP)",
+            "final prompt (U1P1FP)",
+            "lined paper"
+          ],
+          "collect": [],
+          "hold": [
+            "do not issue Whately Week 6"
+          ],
+          "due": [
+            {
+              "name": "Formal Paper A typed (U1P1FP)",
+              "id": "U1P1FP",
+              "due": null,
+              "note": "typed due next Mon or Tue; lock in Friday review; do not print the date on the sheets"
+            }
+          ]
+        },
+        "Wednesday": {
+          "run": "Formal Paper A handwritten draft (U1P1FP)",
+          "have": [
+            "final prompt (U1P1FP)",
+            "lined paper"
+          ],
+          "collect": [],
+          "hold": [
+            "do not issue Whately Week 6"
+          ],
+          "due": [
+            {
+              "name": "Formal Paper A typed (U1P1FP)",
+              "id": "U1P1FP",
+              "due": null,
+              "note": "typed due next Mon or Tue; lock in Friday review; do not print the date on the sheets"
             }
           ]
         },
         "Thursday": {
-          "run": "weekly paper Can an argument be well formed and still fail to prove what matters?",
+          "run": "Formal Paper A draft workday (U1P1FP)",
           "have": [
+            "final prompt (U1P1FP)",
             "lined paper"
           ],
           "collect": [],
           "hold": [
-            "do not issue Formal Paper A"
+            "do not issue Whately Week 6"
           ],
           "due": [
             {
-              "name": "weekly paper Can an argument be well formed and still fail to prove what matters?",
-              "id": null,
-              "due": "2026-10-23",
-              "note": "locked Friday review; due Friday"
+              "name": "Formal Paper A typed (U1P1FP)",
+              "id": "U1P1FP",
+              "due": null,
+              "note": "typed due next Mon or Tue; lock in Friday review; do not print the date on the sheets"
             }
           ]
         },
         "Friday": {
-          "run": "weekly paper Can an argument be well formed and still fail to prove what matters?; portfolio check",
+          "run": "Formal Paper A last class day on the draft (U1P1FP); portfolio check",
           "have": [
+            "final prompt (U1P1FP)",
             "lined paper",
             "student portfolios"
           ],
           "collect": [],
           "hold": [
-            "do not issue Formal Paper A",
-            "do not issue Logic Dungeon I (U1F1LD)"
+            "do not issue Whately Week 6"
           ],
           "due": [
             {
-              "name": "weekly paper Can an argument be well formed and still fail to prove what matters?",
-              "id": null,
-              "due": "2026-10-23",
-              "note": "locked Friday review; due Friday"
+              "name": "Formal Paper A typed (U1P1FP)",
+              "id": "U1P1FP",
+              "due": null,
+              "note": "typed due next Mon or Tue; lock in Friday review; do not print the date on the sheets"
             }
           ]
         }
