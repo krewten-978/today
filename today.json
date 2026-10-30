@@ -1,368 +1,146 @@
 {
   "week_of": "2026-11-02",
   "timezone": "America/Los_Angeles",
-  "updated": "2026-10-30T07:10:05-07:00",
+  "updated": "2026-10-30T10:46:29-07:00",
   "audience": "teacher",
   "bells": [
-    {
-      "id": "breakfast",
-      "label": "Breakfast",
-      "start": "07:45",
-      "end": "08:00",
-      "kind": "nonclass",
-      "course": null
-    },
-    {
-      "id": "p1",
-      "label": "1st Period",
-      "start": "08:05",
-      "end": "08:55",
-      "kind": "class",
-      "period": 1,
-      "course": "Eng II"
-    },
-    {
-      "id": "p2",
-      "label": "2nd Period",
-      "start": "08:59",
-      "end": "09:49",
-      "kind": "class",
-      "period": 2,
-      "course": "Video Production"
-    },
-    {
-      "id": "p3",
-      "label": "3rd Period",
-      "start": "09:53",
-      "end": "10:43",
-      "kind": "prep",
-      "period": 3,
-      "course": null
-    },
-    {
-      "id": "advisory",
-      "label": "Advisory",
-      "start": "10:47",
-      "end": "11:09",
-      "kind": "advisory",
-      "course": null
-    },
-    {
-      "id": "p4",
-      "label": "4th Period",
-      "start": "11:13",
-      "end": "12:03",
-      "kind": "class",
-      "period": 4,
-      "course": "Eng IV"
-    },
-    {
-      "id": "lunch",
-      "label": "Lunch",
-      "start": "12:03",
-      "end": "12:33",
-      "kind": "lunch",
-      "course": null
-    },
-    {
-      "id": "p5",
-      "label": "5th Period",
-      "start": "12:37",
-      "end": "13:27",
-      "kind": "class",
-      "period": 5,
-      "course": "Eng II"
-    },
-    {
-      "id": "p6",
-      "label": "6th Period",
-      "start": "13:31",
-      "end": "14:21",
-      "kind": "class",
-      "period": 6,
-      "course": "WR 121"
-    },
-    {
-      "id": "p7",
-      "label": "7th Period",
-      "start": "14:25",
-      "end": "15:15",
-      "kind": "class",
-      "period": 7,
-      "course": "Eng II"
-    }
+    {"id": "breakfast", "label": "Breakfast", "start": "07:45", "end": "08:00", "kind": "nonclass", "course": null},
+    {"id": "p1", "label": "1st Period", "start": "08:05", "end": "08:55", "kind": "class", "period": 1, "course": "Eng II"},
+    {"id": "p2", "label": "2nd Period", "start": "08:59", "end": "09:49", "kind": "class", "period": 2, "course": "Video Production"},
+    {"id": "p3", "label": "3rd Period", "start": "09:53", "end": "10:43", "kind": "prep", "period": 3, "course": null},
+    {"id": "advisory", "label": "Advisory", "start": "10:47", "end": "11:09", "kind": "advisory", "course": null},
+    {"id": "p4", "label": "4th Period", "start": "11:13", "end": "12:03", "kind": "class", "period": 4, "course": "Eng IV"},
+    {"id": "lunch", "label": "Lunch", "start": "12:03", "end": "12:33", "kind": "lunch", "course": null},
+    {"id": "p5", "label": "5th Period", "start": "12:37", "end": "13:27", "kind": "class", "period": 5, "course": "Eng II"},
+    {"id": "p6", "label": "6th Period", "start": "13:31", "end": "14:21", "kind": "class", "period": 6, "course": "WR 121"},
+    {"id": "p7", "label": "7th Period", "start": "14:25", "end": "15:15", "kind": "class", "period": 7, "course": "Eng II"}
   ],
   "courses": {
     "Eng II": {
-      "title": "Nietzsche / Lesson 7 / Vocabulary Week 8",
+      "title": "Sancho, Nietzsche, windmills, Lesson 7 reader, Vocabulary Week 8",
       "days": {
         "Monday": {
-          "run": "student reader Nietzsche Truth as Metaphor; teacher guide (U1L6TG) 1 copy; introduce weekly vocabulary",
-          "have": [
-            "student reader Nietzsche Truth as Metaphor",
-            "teacher guide (U1L6TG) 1 copy",
-            "Vocabulary Week 8 deck"
-          ],
+          "run": "literary buildup Sancho Joins the Story; teacher guide (U1L5STG) 1 copy; introduce weekly vocabulary",
+          "have": ["literary buildup Sancho Joins the Story", "teacher guide (U1L5STG) 1 copy", "Vocabulary Week 8 deck"],
           "collect": [],
-          "hold": [
-            "if Sancho / Story Window still open, finish that first and slide Nietzsche",
-            "do not reissue Focus Lab (U1L5FL)",
-            "do not issue Focus Lab (U1L6FL)"
-          ],
+          "hold": ["do not open the Nietzsche reader today", "do not reissue Focus Lab (U1L5FL)"],
           "due": []
         },
         "Tuesday": {
-          "run": "Nietzsche Focus Lab (U1L6FL)",
-          "have": [
-            "Focus Lab worksheets (U1L6FL)"
-          ],
+          "run": "student reader Nietzsche Truth as Metaphor; teacher guide (U1L6TG) 1 copy",
+          "have": ["student reader Nietzsche Truth as Metaphor", "teacher guide (U1L6TG) 1 copy"],
           "collect": [],
-          "hold": [
-            "if Monday stayed on Sancho, run the Nietzsche reader instead",
-            "do not issue literary buildup Don Quixote Windmills"
-          ],
-          "due": [
-            {
-              "name": "Focus Lab worksheets (U1L6FL)",
-              "id": "U1L6FL",
-              "due": "2026-11-04",
-              "note": "assigned Tuesday; collect Wednesday"
-            }
-          ]
+          "hold": ["do not issue Focus Lab (U1L6FL) today", "do not issue literary buildup Don Quixote Windmills"],
+          "due": []
         },
         "Wednesday": {
-          "run": "literary buildup Don Quixote Windmills; teacher guide (U1L6STG) 1 copy; Vocab Pics",
-          "have": [
-            "literary buildup Don Quixote Windmills",
-            "teacher guide (U1L6STG) 1 copy",
-            "Vocab Pics (imply, innovate, naive, paradox, refute, superiority)"
-          ],
-          "collect": [
-            "Focus Lab worksheets (U1L6FL)"
-          ],
-          "hold": [
-            "do not issue student reader Unit Summary Truth and Shadows"
-          ],
+          "run": "Focus Lab worksheets (U1L6FL); Vocab Pics",
+          "have": ["Focus Lab worksheets (U1L6FL)", "Vocab Pics (imply, innovate, naive, paradox, refute, superiority)"],
+          "collect": [],
+          "hold": ["do not issue literary buildup Don Quixote Windmills today"],
           "due": [
-            {
-              "name": "Vocab Pics",
-              "id": null,
-              "due": "2026-11-04",
-              "note": "due same Wednesday"
-            },
-            {
-              "name": "Focus Lab worksheets (U1L6FL)",
-              "id": "U1L6FL",
-              "due": "2026-11-04",
-              "note": "assigned Tuesday; collect Wednesday"
-            }
+            {"name": "Vocab Pics", "id": null, "due": "2026-11-04", "note": "due same Wednesday"},
+            {"name": "Focus Lab worksheets (U1L6FL)", "id": "U1L6FL", "due": "2026-11-05", "note": "assigned Wednesday; collect Thursday"}
           ]
         },
         "Thursday": {
-          "run": "student reader Unit Summary Truth and Shadows; teacher guide (U1L7TG) 1 copy",
-          "have": [
-            "student reader Unit Summary Truth and Shadows",
-            "teacher guide (U1L7TG) 1 copy"
-          ],
-          "collect": [],
-          "hold": [
-            "if windmills story still open, finish it and slide Lesson 7",
-            "do not issue Focus Lab (U1L7FL)",
-            "do not open the Unit 1 paper"
-          ],
-          "due": []
+          "run": "literary buildup Don Quixote Windmills; teacher guide (U1L6STG) 1 copy",
+          "have": ["literary buildup Don Quixote Windmills", "teacher guide (U1L6STG) 1 copy"],
+          "collect": ["Focus Lab worksheets (U1L6FL)"],
+          "hold": ["do not issue student reader Unit Summary Truth and Shadows today"],
+          "due": [
+            {"name": "Focus Lab worksheets (U1L6FL)", "id": "U1L6FL", "due": "2026-11-05", "note": "assigned Wednesday; collect Thursday"}
+          ]
         },
         "Friday": {
-          "run": "Lesson 7 Focus Lab (U1L7FL); verbal vocabulary test; portfolio check",
-          "have": [
-            "Focus Lab worksheets (U1L7FL)",
-            "Vocabulary Week 8 verbal-test script",
-            "student portfolios"
-          ],
+          "run": "student reader Unit Summary Truth and Shadows; teacher guide (U1L7TG) 1 copy; verbal vocabulary test; portfolio check",
+          "have": ["student reader Unit Summary Truth and Shadows", "teacher guide (U1L7TG) 1 copy", "Vocabulary Week 8 verbal-test script", "student portfolios"],
           "collect": [],
-          "hold": [
-            "if Lesson 7 reader still open, finish it",
-            "do not open the Unit 1 paper"
-          ],
-          "due": [
-            {
-              "name": "Focus Lab worksheets (U1L7FL)",
-              "id": "U1L7FL",
-              "due": "2026-11-09",
-              "note": "assigned Friday; collect next school day"
-            }
-          ]
+          "hold": ["do not issue Focus Lab (U1L7FL)", "do not open the Unit 1 paper"],
+          "due": []
         }
       }
     },
     "Eng IV": {
-      "title": "Lesson 8F-8G, then 9A-9C if 8G closed",
+      "title": "8C, 8D, 8F, 8G, then Lancelot project",
       "days": {
         "Monday": {
-          "run": "student reader Lesson 8F A Piece of the Cloth; teacher guide (L8FTG) 1 copy",
-          "have": [
-            "student reader Lesson 8F A Piece of the Cloth",
-            "teacher guide (L8FTG) 1 copy",
-            "lined paper"
-          ],
+          "run": "student reader I Am Lancelot; teacher guide (L8CTG) 1 copy",
+          "have": ["student reader I Am Lancelot", "teacher guide (L8CTG) 1 copy", "lined paper"],
           "collect": [],
-          "hold": [
-            "if 8E still open, finish it and slide",
-            "do not issue Lesson 8G"
-          ],
+          "hold": ["do not issue student reader Silk Works for Their Meat today"],
           "due": []
         },
         "Tuesday": {
-          "run": "student reader Lesson 8G Bear It upon Thy Back; teacher guide (L8GTG) 1 copy",
-          "have": [
-            "student reader Lesson 8G Bear It upon Thy Back",
-            "teacher guide (L8GTG) 1 copy",
-            "lined paper"
-          ],
+          "run": "student reader Silk Works for Their Meat; teacher guide (L8DTG) 1 copy",
+          "have": ["student reader Silk Works for Their Meat", "teacher guide (L8DTG) 1 copy", "lined paper"],
           "collect": [],
-          "hold": [
-            "do not issue Lesson 9A",
-            "do not restore deleted Gareth 6A/6B"
-          ],
+          "hold": ["do not issue One Spear (8E)", "do not issue student reader A Piece of the Cloth today"],
           "due": []
         },
         "Wednesday": {
-          "run": "student reader Lesson 9A Three Petitions; teacher guide (L9ATG) 1 copy",
-          "have": [
-            "student reader Lesson 9A Three Petitions",
-            "teacher guide (L9ATG) 1 copy",
-            "lined paper"
-          ],
+          "run": "student reader A Piece of the Cloth; teacher guide (L8FTG) 1 copy",
+          "have": ["student reader A Piece of the Cloth", "teacher guide (L8FTG) 1 copy", "lined paper"],
           "collect": [],
-          "hold": [
-            "if 8G still open, finish Lesson 8 leftover notes instead",
-            "do not call him Gareth",
-            "do not issue Lesson 9B"
-          ],
+          "hold": ["do not issue One Spear (8E)"],
           "due": []
         },
         "Thursday": {
-          "run": "student reader Lesson 9B Showed Not the Utterance; teacher guide (L9BTG) 1 copy",
-          "have": [
-            "student reader Lesson 9B Showed Not the Utterance",
-            "teacher guide (L9BTG) 1 copy",
-            "lined paper"
-          ],
+          "run": "student reader Bear It upon Thy Back; teacher guide (L8GTG) 1 copy",
+          "have": ["student reader Bear It upon Thy Back", "teacher guide (L8GTG) 1 copy", "lined paper"],
           "collect": [],
-          "hold": [
-            "if 9A is not open, stay on leftover Lesson 8 notes",
-            "do not issue Lesson 9C"
-          ],
+          "hold": ["do not open Lesson 9"],
           "due": []
         },
         "Friday": {
-          "run": "student reader Lesson 9C The Black Shield; teacher guide (L9CTG) 1 copy; portfolio check",
-          "have": [
-            "student reader Lesson 9C The Black Shield",
-            "teacher guide (L9CTG) 1 copy",
-            "lined paper",
-            "student portfolios"
-          ],
+          "run": "Lancelot project; portfolio check",
+          "have": ["already-issued Lancelot project sheets", "student portfolios"],
           "collect": [],
-          "hold": [
-            "if 9B did not close, stay on leftover Lesson 9 notes",
-            "do not issue Lesson 9D"
-          ],
+          "hold": ["no project packet in the folder", "do not open Lesson 9A"],
           "due": []
         }
       }
     },
     "WR 121": {
-      "title": "Cycle 7 fallacy as appearance of proof",
+      "title": "Week 6 reader, then rough draft U1L6SP",
       "days": {
         "Monday": {
-          "run": "collect leftover Formal Paper A if needed (U1P1FP); Whately Week 7 reading",
-          "have": [
-            "final prompt (U1P1FP)",
-            "Whately Week 7 reading",
-            "lined paper"
-          ],
+          "run": "Whately Week 6 reading Good Form, Bad Facts",
+          "have": ["Whately Week 6 reading"],
           "collect": [],
-          "hold": [
-            "if Formal Paper A still needs class time, stay on it and slide Cycle 7",
-            "do not issue the Week 7 lecture today",
-            "do not issue Logic Lab (U1L7LL)"
-          ],
-          "due": [
-            {
-              "name": "Formal Paper A typed (U1P1FP)",
-              "id": "U1P1FP",
-              "due": null,
-              "note": "typed due is teacher call; do not print the date on the sheets"
-            }
-          ]
-        },
-        "Tuesday": {
-          "run": "Week 7 visual lecture (copy whole lecture folder; open index.html)",
-          "have": [
-            "Week 7 lecture folder"
-          ],
-          "collect": [],
-          "hold": [
-            "do not issue Logic Lab (U1L7LL)"
-          ],
+          "hold": ["do not open the visual lecture", "do not open the rough draft today"],
           "due": []
         },
-        "Wednesday": {
-          "run": "weekly writing using this week's Whately tool; lined paper",
-          "have": [
-            "lined paper"
-          ],
+        "Tuesday": {
+          "run": "rough draft Must We Correct What May Happen? (U1L6SP)",
+          "have": ["rough draft (U1L6SP)", "lined paper"],
           "collect": [],
-          "hold": [
-            "do not invent a weekly-paper title or PDF",
-            "do not issue Logic Lab (U1L7LL)",
-            "do not open Cycle 8"
-          ],
+          "hold": ["skip the visual lecture", "do not issue Logic Lab (U1L6LL)", "do not issue formal paper (U1L6FP)"],
           "due": [
-            {
-              "name": "weekly writing (Cycle 7 tool)",
-              "id": null,
-              "due": null,
-              "note": "due last contact day if kept; lock in Friday review"
-            }
+            {"name": "rough draft Must We Correct What May Happen? (U1L6SP)", "id": "U1L6SP", "due": null, "note": "no printed due date; typed formal is a later week"}
           ]
+        },
+        "Wednesday": {
+          "run": "paper workday on rough draft (U1L6SP)",
+          "have": ["lined paper", "drafts in progress"],
+          "collect": [],
+          "hold": ["do not issue formal paper (U1L6FP)"],
+          "due": []
         },
         "Thursday": {
-          "run": "continue weekly writing using this week's Whately tool",
-          "have": [
-            "lined paper"
-          ],
+          "run": "paper workday on rough draft (U1L6SP)",
+          "have": ["lined paper", "drafts in progress"],
           "collect": [],
-          "hold": [
-            "do not open Cycle 8"
-          ],
-          "due": [
-            {
-              "name": "weekly writing (Cycle 7 tool)",
-              "id": null,
-              "due": null,
-              "note": "due last contact day if kept; lock in Friday review"
-            }
-          ]
+          "hold": ["do not open the next Whately reading"],
+          "due": []
         },
         "Friday": {
-          "run": "last writing day if you kept the paper; portfolio check",
-          "have": [
-            "lined paper",
-            "student portfolios"
-          ],
+          "run": "last class day on rough draft (U1L6SP); portfolio check",
+          "have": ["lined paper", "drafts in progress", "student portfolios"],
           "collect": [],
-          "hold": [
-            "do not open Cycle 8"
-          ],
+          "hold": ["do not issue formal paper (U1L6FP)", "do not open the Week 7 reader"],
           "due": [
-            {
-              "name": "weekly writing (Cycle 7 tool)",
-              "id": null,
-              "due": null,
-              "note": "due last contact day if kept; lock in Friday review"
-            }
+            {"name": "rough draft Must We Correct What May Happen? (U1L6SP)", "id": "U1L6SP", "due": null, "note": "last class day; typed due not set"}
           ]
         }
       }
