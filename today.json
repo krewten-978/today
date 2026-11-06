@@ -1,7 +1,7 @@
 {
   "week_of": "2026-11-09",
   "timezone": "America/Los_Angeles",
-  "updated": "2026-11-06T10:34:37-08:00",
+  "updated": "2026-11-06T10:44:00-08:00",
   "audience": "teacher",
   "bells": [
     {
@@ -105,9 +105,9 @@
           ],
           "collect": [],
           "hold": [
-            "do not open the Lesson 7 reader",
-            "do not open U1L7FL",
-            "no weekly vocabulary"
+            "Lesson 7 skipped: do not print the reader",
+            "no weekly vocabulary",
+            "do not issue U1L7FL"
           ],
           "due": []
         },
@@ -121,7 +121,7 @@
             "Unit 1 final paper"
           ],
           "hold": [
-            "do not open Lesson 7 or U1L7FL (Monday 11/16)"
+            "Lesson 7 skipped; Unit 1 closes with the paper"
           ],
           "due": [
             {
