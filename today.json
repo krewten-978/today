@@ -1,7 +1,7 @@
 {
-  "week_of": "2026-11-09",
+  "week_of": "2026-11-16",
   "timezone": "America/Los_Angeles",
-  "updated": "2026-11-06T10:44:00-08:00",
+  "updated": "2026-11-13T06:15:00-08:00",
   "audience": "teacher",
   "bells": [
     {
@@ -94,186 +94,247 @@
   ],
   "courses": {
     "Eng II": {
-      "title": "Unit 1 final paper: windmills and two thinkers; due Tuesday",
+      "title": "Unit 1 final paper week; Vocab Week 9 overlay",
       "days": {
         "Monday": {
-          "run": "Unit 1 final paper — continue the draft (windmills passage + two Unit 1 thinkers)",
+          "run": "Unit 1 final paper leftover or return/revision; introduce weekly vocabulary",
           "have": [
             "final paper scaffold",
             "windmills passage",
-            "lined paper"
+            "lined paper",
+            "Vocabulary Week 9 deck"
           ],
-          "collect": [],
+          "collect": [
+            "leftover Unit 1 final paper (if still out)"
+          ],
           "hold": [
             "Lesson 7 skipped: do not print the reader",
-            "no weekly vocabulary",
-            "do not issue U1L7FL"
+            "do not issue U1L7FL",
+            "do not open Unit 2"
           ],
           "due": []
         },
         "Tuesday": {
-          "run": "Finish the Unit 1 final paper; portfolio check",
+          "run": "Continue Unit 1 final paper finish or revision",
           "have": [
             "final paper drafts",
+            "lined paper"
+          ],
+          "collect": [],
+          "hold": [
+            "Lesson 7 skipped",
+            "do not open Unit 2"
+          ],
+          "due": []
+        },
+        "Wednesday": {
+          "run": "Continue Unit 1 final paper; Vocab Pics",
+          "have": [
+            "final paper drafts",
+            "Vocab Pics (concede, depict, exploit, integrity, lavish, mundane)"
+          ],
+          "collect": [
+            "Vocab Pics"
+          ],
+          "hold": [
+            "do not open Unit 2"
+          ],
+          "due": [
+            {
+              "name": "Vocab Pics",
+              "id": null,
+              "due": "2026-11-18",
+              "note": "same Wednesday"
+            }
+          ]
+        },
+        "Thursday": {
+          "run": "Continue Unit 1 final paper finish or revision",
+          "have": [
+            "final paper drafts",
+            "lined paper"
+          ],
+          "collect": [],
+          "hold": [
+            "do not open Unit 2"
+          ],
+          "due": []
+        },
+        "Friday": {
+          "run": "Finish paper / binder close; verbal vocabulary test; portfolio check",
+          "have": [
+            "final paper drafts",
+            "verbal-test script (Week 9)",
             "student portfolios"
           ],
           "collect": [
-            "Unit 1 final paper"
+            "Unit 1 final paper (if still in hand)"
           ],
           "hold": [
-            "Lesson 7 skipped; Unit 1 closes with the paper"
+            "do not open Unit 2",
+            "Lesson 7 skipped"
           ],
           "due": [
             {
               "name": "Unit 1 final paper",
               "id": null,
-              "due": "2026-11-10",
-              "note": "teacher-set due date (RIVER-1109)"
+              "due": "2026-11-20",
+              "note": "proposal default for this paper week; leftover from teacher-set 2026-11-10 if still out"
             }
           ]
-        },
-        "Wednesday": {
-          "run": "Veterans Day",
-          "have": [],
-          "collect": [],
-          "hold": [],
-          "due": []
-        },
-        "Thursday": {
-          "run": "Professional development — no HS contact",
-          "have": [],
-          "collect": [],
-          "hold": [],
-          "due": []
-        },
-        "Friday": {
-          "run": "Work day — no HS contact",
-          "have": [],
-          "collect": [],
-          "hold": [],
-          "due": []
         }
       }
     },
     "Eng IV": {
-      "title": "Two-day Lancelot project; do not open Lesson 9",
+      "title": "Lesson 9 Gareth 9A-9E, or finish Lancelot project first",
       "days": {
         "Monday": {
-          "run": "Lancelot project, day 1: evidence from 8C, 8D, 8F, 8G",
+          "run": "student reader Three Petitions (9A), or finish Lancelot project",
           "have": [
-            "already-issued Lancelot sheets",
-            "lined paper"
+            "student reader Three Petitions",
+            "teacher guide (L9ATG) 1 copy",
+            "lined paper",
+            "already-issued Lancelot sheets if project still open"
           ],
           "collect": [],
           "hold": [
-            "no project packet in the repo",
-            "do not open Lesson 9",
-            "8E stays skipped"
+            "8E stays skipped",
+            "do not open 9B until 9A closes"
           ],
           "due": []
         },
         "Tuesday": {
-          "run": "Lancelot project, day 2; portfolio check",
+          "run": "student reader Showed Not the Utterance (9B), or 9A if Monday stayed on the project",
           "have": [
-            "already-issued Lancelot sheets",
-            "student portfolios"
+            "student reader Showed Not the Utterance",
+            "teacher guide (L9BTG) 1 copy",
+            "lined paper"
           ],
           "collect": [],
           "hold": [
-            "do not open Lesson 9",
             "8E stays skipped"
           ],
           "due": []
         },
         "Wednesday": {
-          "run": "Veterans Day",
-          "have": [],
+          "run": "student reader The Black Shield (9C), or continue Lancelot project",
+          "have": [
+            "student reader The Black Shield",
+            "teacher guide (L9CTG) 1 copy",
+            "lined paper"
+          ],
           "collect": [],
-          "hold": [],
+          "hold": [
+            "do not open a camelot paper sheet"
+          ],
           "due": []
         },
         "Thursday": {
-          "run": "Professional development — no HS contact",
-          "have": [],
+          "run": "student reader Chiding Him (9D), or continue project",
+          "have": [
+            "student reader Chiding Him",
+            "teacher guide (L9DTG) 1 copy",
+            "lined paper"
+          ],
           "collect": [],
-          "hold": [],
+          "hold": [
+            "this red brother is not the Red Knight of the Red Launds"
+          ],
           "due": []
         },
         "Friday": {
-          "run": "Work day — no HS contact",
-          "have": [],
+          "run": "student reader Of a Noble Blood (9E); portfolio check",
+          "have": [
+            "student reader Of a Noble Blood",
+            "teacher guide (L9ETG) 1 copy",
+            "student portfolios"
+          ],
           "collect": [],
-          "hold": [],
+          "hold": [
+            "do not open 9F",
+            "do not open Beowulf",
+            "8E stays skipped"
+          ],
           "due": []
         }
       }
     },
     "WR 121": {
-      "title": "U1L6SP rough draft on the teacher's question; due Tuesday",
+      "title": "Cycle 7 fallacy week, or leftover rough draft (U1L6SP)",
       "days": {
         "Monday": {
-          "run": "Continue the rough draft \"Does a moment in time actually exist?\" (U1L6SP)",
+          "run": "leftover rough draft (U1L6SP) if still out; else Whately Week 7 reading",
           "have": [
-            "rough draft sheet (U1L6SP)",
+            "Whately Week 7 reading",
+            "leftover rough draft (U1L6SP)",
+            "lined paper"
+          ],
+          "collect": [
+            "leftover rough draft (U1L6SP) if still out"
+          ],
+          "hold": [
+            "do not open the visual lecture today",
+            "do not open Logic Lab (U1L7LL)",
+            "do not issue Formal Paper B"
+          ],
+          "due": []
+        },
+        "Tuesday": {
+          "run": "Cycle 7 visual lecture; open index.html",
+          "have": [
+            "Week 7 lecture folder"
+          ],
+          "collect": [],
+          "hold": [
+            "do not open Logic Lab (U1L7LL)",
+            "if Monday stayed on U1L6SP, run the reader today instead"
+          ],
+          "due": []
+        },
+        "Wednesday": {
+          "run": "Cycle 7 writing on lined paper (fallacy tool)",
+          "have": [
             "lined paper"
           ],
           "collect": [],
           "hold": [
-            "do not open Cycle 7",
-            "do not open the visual lecture",
-            "do not issue formal paper (U1L6FP)"
+            "no weekly-paper PDF — do not invent a prewrite",
+            "do not issue Formal Paper B"
           ],
-          "due": [
-            {
-              "name": "rough draft \"Does a moment in time actually exist?\" (U1L6SP)",
-              "id": "U1L6SP",
-              "due": "2026-11-10",
-              "note": "teacher-set due date (RIVER-1109)"
-            }
-          ]
-        },
-        "Tuesday": {
-          "run": "Rough draft due; portfolio check",
-          "have": [
-            "rough draft (U1L6SP)",
-            "student portfolios"
-          ],
-          "collect": [
-            "rough draft (U1L6SP)"
-          ],
-          "hold": [
-            "do not open Cycle 7",
-            "do not issue formal paper (U1L6FP)"
-          ],
-          "due": [
-            {
-              "name": "rough draft \"Does a moment in time actually exist?\" (U1L6SP)",
-              "id": "U1L6SP",
-              "due": "2026-11-10",
-              "note": "teacher-set due date (RIVER-1109)"
-            }
-          ]
-        },
-        "Wednesday": {
-          "run": "Veterans Day",
-          "have": [],
-          "collect": [],
-          "hold": [],
           "due": []
         },
         "Thursday": {
-          "run": "Professional development — no HS contact",
-          "have": [],
+          "run": "Continue Cycle 7 writing",
+          "have": [
+            "lined paper"
+          ],
           "collect": [],
-          "hold": [],
+          "hold": [
+            "do not open Logic Lab (U1L7LL)",
+            "do not issue Formal Paper B"
+          ],
           "due": []
         },
         "Friday": {
-          "run": "Work day — no HS contact",
-          "have": [],
-          "collect": [],
-          "hold": [],
-          "due": []
+          "run": "Finish Cycle 7 writing; portfolio check",
+          "have": [
+            "lined paper",
+            "student portfolios"
+          ],
+          "collect": [
+            "Cycle 7 writing"
+          ],
+          "hold": [
+            "do not start Formal Paper B"
+          ],
+          "due": [
+            {
+              "name": "Cycle 7 writing",
+              "id": null,
+              "due": "2026-11-20",
+              "note": "proposal default last contact day; no weekly-paper PDF"
+            }
+          ]
         }
       }
     }
